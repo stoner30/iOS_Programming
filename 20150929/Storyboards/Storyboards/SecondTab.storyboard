@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qA1-eZ-OHK">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dyH-wg-CWr">
+            <objects>
+                <viewController id="ZT0-li-VWc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cg8-Qu-u4h"/>
+                        <viewControllerLayoutGuide type="bottom" id="bXu-wx-RQt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5rg-Jm-mxB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barrafina" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vp-l6-BRi">
+                                <rect key="frame" x="0.0" y="64" width="320" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jdf-xN-qQq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barrafina" translatesAutoresizingMaskIntoConstraints="NO" id="9Ue-Od-MJs">
+                                <rect key="frame" x="0.0" y="104" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="gor-hM-g6H"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9Ue-Od-MJs" firstAttribute="top" secondItem="7vp-l6-BRi" secondAttribute="bottom" id="30j-LT-nkO"/>
+                            <constraint firstItem="9Ue-Od-MJs" firstAttribute="leading" secondItem="5rg-Jm-mxB" secondAttribute="leadingMargin" constant="-16" id="4Jk-pj-6iU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Ue-Od-MJs" secondAttribute="trailing" constant="-16" id="4dw-gU-541"/>
+                            <constraint firstItem="7vp-l6-BRi" firstAttribute="top" secondItem="cg8-Qu-u4h" secondAttribute="bottom" id="Qju-Uf-aAE"/>
+                            <constraint firstItem="7vp-l6-BRi" firstAttribute="leading" secondItem="5rg-Jm-mxB" secondAttribute="leadingMargin" constant="-16" id="rMi-nY-6wh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7vp-l6-BRi" secondAttribute="trailing" constant="-16" id="raY-Lg-s37"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fbf-Of-J9w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DkA-uC-R0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737" y="354"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4Kz-I2-svP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qA1-eZ-OHK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Q46-AY-SfC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZT0-li-VWc" kind="relationship" relationship="rootViewController" id="s4w-sq-m6E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RhL-EQ-JAi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="205" y="354"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="barrafina" width="640" height="640"/>
+    </resources>
+</document>
