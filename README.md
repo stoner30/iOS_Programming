@@ -4,3 +4,6 @@
 ## Files
 * `20150929`
     * **Storyboards**: 原先的想法是研究下iOS9的新增特性——Storyboard Reference，而后逐渐引申到iOS9及之前的版本如何通过多Storyboard来分离逻辑，并有序的整合起来的问题，于是乎有了这个小Project。
+
+* `20151008`
+	* **CollectionViewDemo**: CollectionView的用法，考虑使用CollectionView作为应用的首页进行布局。
