@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="oB7-st-PE1">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Collection View Demo-->
+        <scene sceneID="C0I-dk-CA7">
+            <objects>
+                <viewController id="dnU-Xp-E1f" customClass="ViewController" customModule="CollectionViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dFd-OG-JBl"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dmw-1J-J5J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Tz-cw-HMt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SNn-rT-LUd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="qfR-7U-hkS">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bnU-E6-ERQ">
+                                        <rect key="frame" x="0.0" y="64" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="SNn-rT-LUd" secondAttribute="trailing" constant="-16" id="13K-zX-NwV"/>
+                            <constraint firstItem="Dmw-1J-J5J" firstAttribute="top" secondItem="SNn-rT-LUd" secondAttribute="bottom" id="Ta3-g9-zvV"/>
+                            <constraint firstItem="SNn-rT-LUd" firstAttribute="top" secondItem="7Tz-cw-HMt" secondAttribute="topMargin" id="bW6-4U-9Qo"/>
+                            <constraint firstItem="SNn-rT-LUd" firstAttribute="leading" secondItem="7Tz-cw-HMt" secondAttribute="leadingMargin" constant="-16" id="wmm-Nx-vSe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Collection View Demo" id="UJj-gp-T6o"/>
+                    <connections>
+                        <outlet property="collectionView" destination="SNn-rT-LUd" id="cF8-xM-Gj3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XgG-DZ-9da" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="551" y="170"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ONN-Fa-xTh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oB7-st-PE1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JLk-Ij-VeD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dnU-Xp-E1f" kind="relationship" relationship="rootViewController" id="7V0-2V-vIu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XBk-om-5kv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="170"/>
+        </scene>
+    </scenes>
+</document>
