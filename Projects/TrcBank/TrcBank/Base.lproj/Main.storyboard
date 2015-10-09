@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -26,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="21" y="-311"/>
         </scene>
-        <!--天津农商银行-->
+        <!--农商银行-->
         <scene sceneID="8Zo-2q-tfB">
             <objects>
-                <viewController id="DY7-zz-SKx" sceneMemberID="viewController">
+                <viewController id="DY7-zz-SKx" customClass="MobileBankViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ByZ-OJ-PZg"/>
                         <viewControllerLayoutGuide type="bottom" id="Wmb-cA-JAJ"/>
@@ -38,24 +39,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="手机银行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEo-2s-Efj">
-                                <rect key="frame" x="126" y="273" width="68" height="21"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rv7-eC-ROK">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="519"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DLO-hh-mLf">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rv7-eC-ROK" secondAttribute="trailing" constant="-20" id="3YY-tv-VHs"/>
+                            <constraint firstItem="rv7-eC-ROK" firstAttribute="top" secondItem="ByZ-OJ-PZg" secondAttribute="bottom" constant="-64" id="CGJ-YC-z5y"/>
+                            <constraint firstItem="Wmb-cA-JAJ" firstAttribute="top" secondItem="rv7-eC-ROK" secondAttribute="bottom" id="QvW-O1-Im3"/>
+                            <constraint firstItem="rv7-eC-ROK" firstAttribute="leading" secondItem="IIg-Lf-GCJ" secondAttribute="leadingMargin" constant="-20" id="uVI-CD-PXi"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="天津农商银行" id="d8j-jc-Jk4"/>
+                    <navigationItem key="navigationItem" title="农商银行" id="d8j-jc-Jk4"/>
+                    <connections>
+                        <outlet property="collectionView" destination="rv7-eC-ROK" id="Qn4-aO-9gN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i6r-a6-ByG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1087" y="-631"/>
         </scene>
-        <!--天津农商银行-->
+        <!--农商银行-->
         <scene sceneID="WBd-hK-Wge">
             <objects>
                 <viewController id="d1j-lX-r8D" sceneMemberID="viewController">
@@ -78,13 +92,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="天津农商银行" id="DX0-pQ-ucm"/>
+                    <navigationItem key="navigationItem" title="农商银行" id="DX0-pQ-ucm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4XM-6y-bVX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2151" y="50"/>
         </scene>
-        <!--天津农商银行-->
+        <!--农商银行-->
         <scene sceneID="EA5-ud-ooW">
             <objects>
                 <viewController id="UIz-Dc-vxg" sceneMemberID="viewController">
@@ -107,13 +121,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="天津农商银行" id="RDv-bB-LMU"/>
+                    <navigationItem key="navigationItem" title="农商银行" id="RDv-bB-LMU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dju-w6-oh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="355" y="565"/>
         </scene>
-        <!--天津农商银行-->
+        <!--农商银行-->
         <scene sceneID="x2j-0E-mkA">
             <objects>
                 <viewController id="l1i-E4-Oq3" sceneMemberID="viewController">
@@ -136,7 +150,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="天津农商银行" id="oVZ-Pa-KQ8"/>
+                    <navigationItem key="navigationItem" title="农商银行" id="oVZ-Pa-KQ8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xS-Eg-k0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
