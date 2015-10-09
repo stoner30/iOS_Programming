@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5745921BC788910016A137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745911BC788910016A137 /* AppDelegate.swift */; };
+		AC5745991BC788910016A137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5745971BC788910016A137 /* Main.storyboard */; };
+		AC57459B1BC788910016A137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC57459A1BC788910016A137 /* Assets.xcassets */; };
+		AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC57459C1BC788910016A137 /* LaunchScreen.storyboard */; };
+		AC5745A91BC788910016A137 /* TrcBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745A81BC788910016A137 /* TrcBankTests.swift */; };
+		AC5745B41BC788910016A137 /* TrcBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745B31BC788910016A137 /* TrcBankUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC5745A51BC788910016A137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5745861BC788910016A137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC57458D1BC788910016A137;
+			remoteInfo = TrcBank;
+		};
+		AC5745B01BC788910016A137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5745861BC788910016A137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC57458D1BC788910016A137;
+			remoteInfo = TrcBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC57458E1BC788910016A137 /* TrcBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrcBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5745911BC788910016A137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC5745981BC788910016A137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC57459A1BC788910016A137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC57459D1BC788910016A137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC57459F1BC788910016A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5745A41BC788910016A137 /* TrcBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrcBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5745A81BC788910016A137 /* TrcBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrcBankTests.swift; sourceTree = "<group>"; };
+		AC5745AA1BC788910016A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5745AF1BC788910016A137 /* TrcBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrcBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5745B31BC788910016A137 /* TrcBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrcBankUITests.swift; sourceTree = "<group>"; };
+		AC5745B51BC788910016A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC57458B1BC788910016A137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5745A11BC788910016A137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5745AC1BC788910016A137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5745851BC788910016A137 = {
+			isa = PBXGroup;
+			children = (
+				AC5745901BC788910016A137 /* TrcBank */,
+				AC5745A71BC788910016A137 /* TrcBankTests */,
+				AC5745B21BC788910016A137 /* TrcBankUITests */,
+				AC57458F1BC788910016A137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC57458F1BC788910016A137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC57458E1BC788910016A137 /* TrcBank.app */,
+				AC5745A41BC788910016A137 /* TrcBankTests.xctest */,
+				AC5745AF1BC788910016A137 /* TrcBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5745901BC788910016A137 /* TrcBank */ = {
+			isa = PBXGroup;
+			children = (
+				AC5745911BC788910016A137 /* AppDelegate.swift */,
+				AC5745971BC788910016A137 /* Main.storyboard */,
+				AC57459A1BC788910016A137 /* Assets.xcassets */,
+				AC57459C1BC788910016A137 /* LaunchScreen.storyboard */,
+				AC57459F1BC788910016A137 /* Info.plist */,
+			);
+			path = TrcBank;
+			sourceTree = "<group>";
+		};
+		AC5745A71BC788910016A137 /* TrcBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5745A81BC788910016A137 /* TrcBankTests.swift */,
+				AC5745AA1BC788910016A137 /* Info.plist */,
+			);
+			path = TrcBankTests;
+			sourceTree = "<group>";
+		};
+		AC5745B21BC788910016A137 /* TrcBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5745B31BC788910016A137 /* TrcBankUITests.swift */,
+				AC5745B51BC788910016A137 /* Info.plist */,
+			);
+			path = TrcBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC57458D1BC788910016A137 /* TrcBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5745B81BC788910016A137 /* Build configuration list for PBXNativeTarget "TrcBank" */;
+			buildPhases = (
+				AC57458A1BC788910016A137 /* Sources */,
+				AC57458B1BC788910016A137 /* Frameworks */,
+				AC57458C1BC788910016A137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrcBank;
+			productName = TrcBank;
+			productReference = AC57458E1BC788910016A137 /* TrcBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC5745A31BC788910016A137 /* TrcBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5745BB1BC788910016A137 /* Build configuration list for PBXNativeTarget "TrcBankTests" */;
+			buildPhases = (
+				AC5745A01BC788910016A137 /* Sources */,
+				AC5745A11BC788910016A137 /* Frameworks */,
+				AC5745A21BC788910016A137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5745A61BC788910016A137 /* PBXTargetDependency */,
+			);
+			name = TrcBankTests;
+			productName = TrcBankTests;
+			productReference = AC5745A41BC788910016A137 /* TrcBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC5745AE1BC788910016A137 /* TrcBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5745BE1BC788910016A137 /* Build configuration list for PBXNativeTarget "TrcBankUITests" */;
+			buildPhases = (
+				AC5745AB1BC788910016A137 /* Sources */,
+				AC5745AC1BC788910016A137 /* Frameworks */,
+				AC5745AD1BC788910016A137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5745B11BC788910016A137 /* PBXTargetDependency */,
+			);
+			name = TrcBankUITests;
+			productName = TrcBankUITests;
+			productReference = AC5745AF1BC788910016A137 /* TrcBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5745861BC788910016A137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Stoner.Wong;
+				TargetAttributes = {
+					AC57458D1BC788910016A137 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AC5745A31BC788910016A137 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AC57458D1BC788910016A137;
+					};
+					AC5745AE1BC788910016A137 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AC57458D1BC788910016A137;
+					};
+				};
+			};
+			buildConfigurationList = AC5745891BC788910016A137 /* Build configuration list for PBXProject "TrcBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC5745851BC788910016A137;
+			productRefGroup = AC57458F1BC788910016A137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC57458D1BC788910016A137 /* TrcBank */,
+				AC5745A31BC788910016A137 /* TrcBankTests */,
+				AC5745AE1BC788910016A137 /* TrcBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC57458C1BC788910016A137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */,
+				AC57459B1BC788910016A137 /* Assets.xcassets in Resources */,
+				AC5745991BC788910016A137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5745A21BC788910016A137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5745AD1BC788910016A137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC57458A1BC788910016A137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5745921BC788910016A137 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5745A01BC788910016A137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5745A91BC788910016A137 /* TrcBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5745AB1BC788910016A137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5745B41BC788910016A137 /* TrcBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC5745A61BC788910016A137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC57458D1BC788910016A137 /* TrcBank */;
+			targetProxy = AC5745A51BC788910016A137 /* PBXContainerItemProxy */;
+		};
+		AC5745B11BC788910016A137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC57458D1BC788910016A137 /* TrcBank */;
+			targetProxy = AC5745B01BC788910016A137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC5745971BC788910016A137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5745981BC788910016A137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC57459C1BC788910016A137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC57459D1BC788910016A137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC5745B61BC788910016A137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC5745B71BC788910016A137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC5745B91BC788910016A137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrcBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nucestudio.TrcBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC5745BA1BC788910016A137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrcBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nucestudio.TrcBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC5745BC1BC788910016A137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrcBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nucestudio.TrcBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrcBank.app/TrcBank";
+			};
+			name = Debug;
+		};
+		AC5745BD1BC788910016A137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrcBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nucestudio.TrcBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrcBank.app/TrcBank";
+			};
+			name = Release;
+		};
+		AC5745BF1BC788910016A137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrcBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nucestudio.TrcBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrcBank;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC5745C01BC788910016A137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrcBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nucestudio.TrcBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrcBank;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC5745891BC788910016A137 /* Build configuration list for PBXProject "TrcBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5745B61BC788910016A137 /* Debug */,
+				AC5745B71BC788910016A137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5745B81BC788910016A137 /* Build configuration list for PBXNativeTarget "TrcBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5745B91BC788910016A137 /* Debug */,
+				AC5745BA1BC788910016A137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC5745BB1BC788910016A137 /* Build configuration list for PBXNativeTarget "TrcBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5745BC1BC788910016A137 /* Debug */,
+				AC5745BD1BC788910016A137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC5745BE1BC788910016A137 /* Build configuration list for PBXNativeTarget "TrcBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5745BF1BC788910016A137 /* Debug */,
+				AC5745C01BC788910016A137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC5745861BC788910016A137 /* Project object */;
+}

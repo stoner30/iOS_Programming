@@ -12,7 +12,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let items = [ "A", "B", "C", "D", "E" ]
+    let items = [ "基本信息", "考勤管理", "薪酬福利", "组织架构", "我的团队" ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +37,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CollectionViewCell
         cell.label.text = items[indexPath.row]
-        cell.backgroundColor = UIColor.lightGrayColor()
+//        cell.backgroundColor = UIColor.lightGrayColor()
         return cell
     }
     
