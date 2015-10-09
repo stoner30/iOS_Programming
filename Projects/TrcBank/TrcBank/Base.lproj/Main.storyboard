@@ -42,7 +42,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rv7-eC-ROK">
                                 <rect key="frame" x="-4" y="0.0" width="328" height="519"/>
                                 <animations/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DLO-hh-mLf">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ac2-LL-xDd">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i6r-a6-ByG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1087" y="-631"/>
+            <point key="canvasLocation" x="1223" y="-815"/>
         </scene>
         <!--农商银行-->
         <scene sceneID="WBd-hK-Wge">
@@ -81,22 +81,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="生活服务" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RS8-K4-Z6W">
-                                <rect key="frame" x="126" y="273" width="68" height="21"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="f98-Gi-Hz4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ifI-vH-uo7">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f98-Gi-Hz4" firstAttribute="leading" secondItem="wNU-9y-qlV" secondAttribute="leadingMargin" constant="-16" id="LRp-yz-K2U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f98-Gi-Hz4" secondAttribute="trailing" constant="-16" id="NcR-DA-s3f"/>
+                            <constraint firstItem="9Ne-We-dv7" firstAttribute="top" secondItem="f98-Gi-Hz4" secondAttribute="bottom" id="mmE-l2-QCP"/>
+                            <constraint firstItem="f98-Gi-Hz4" firstAttribute="top" secondItem="xBN-yH-4cP" secondAttribute="bottom" constant="-64" id="vf2-e6-Mwc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="农商银行" id="DX0-pQ-ucm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4XM-6y-bVX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2151" y="50"/>
+            <point key="canvasLocation" x="1223" y="-154"/>
         </scene>
         <!--农商银行-->
         <scene sceneID="EA5-ud-ooW">
@@ -125,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dju-w6-oh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="355" y="565"/>
+            <point key="canvasLocation" x="255" y="573"/>
         </scene>
         <!--农商银行-->
         <scene sceneID="x2j-0E-mkA">
@@ -154,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xS-Eg-k0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1283" y="565"/>
+            <point key="canvasLocation" x="1223" y="573"/>
         </scene>
         <!--手机银行-->
         <scene sceneID="Nk5-Tm-4jj">
@@ -177,7 +187,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gL0-kQ-jRY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="555" y="-631"/>
+            <point key="canvasLocation" x="691" y="-815"/>
         </scene>
         <!--生活服务-->
         <scene sceneID="UHS-YA-WGf">
@@ -200,7 +210,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xcP-kh-5f7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1619" y="50"/>
+            <point key="canvasLocation" x="691" y="-154"/>
         </scene>
         <!--金融助手-->
         <scene sceneID="ZDo-ZP-662">
@@ -223,7 +233,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kl2-XH-V2l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="751" y="565"/>
+            <point key="canvasLocation" x="691" y="573"/>
         </scene>
         <!--农商资讯-->
         <scene sceneID="bab-FJ-EpC">
@@ -246,7 +256,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S6a-xj-TX2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-177" y="565"/>
+            <point key="canvasLocation" x="-277" y="573"/>
         </scene>
     </scenes>
     <resources>

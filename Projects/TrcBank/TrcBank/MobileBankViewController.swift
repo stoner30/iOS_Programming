@@ -29,11 +29,11 @@ class MobileBankViewController: UIViewController, UICollectionViewDataSource, UI
 
         // Do any additional setup after loading the view.
         let layout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16)
+        layout.sectionInset = UIEdgeInsets(top: 16, left: 1, bottom: 16, right: 1)
         
         collectionView.registerNib(UINib(nibName: "MenuCollectionViewCell", bundle: NSBundle.mainBundle()), forCellWithReuseIdentifier: "Cell")
         collectionView.collectionViewLayout = layout
-        collectionView.backgroundColor = UIColor.whiteColor()
+        collectionView.backgroundColor = UIColor(red: 0.96, green: 0.96, blue: 0.96, alpha: 1)
         collectionView.dataSource = self
         collectionView.delegate = self
     }
@@ -43,21 +43,45 @@ class MobileBankViewController: UIViewController, UICollectionViewDataSource, UI
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        collectionView.reloadData()
+    }
+    
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! MenuCollectionViewCell
-        let item = items[indexPath.row] as Dictionary<String, String>
-        cell.icon.image = UIImage(named: item["image"]!)
-        cell.text.text = item["text"]!
+        
+        if indexPath.row < items.count {
+            let item = items[indexPath.row] as Dictionary<String, String>
+            cell.icon.image = UIImage(named: item["image"]!)
+            cell.text.text = item["text"]!
+        } else {
+            cell.icon.image = nil
+            cell.text.text = ""
+        }
         
         return cell
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return items.count
+        if items.count % 4 == 0 {
+            return items.count
+        } else {
+            return items.count + (4 - items.count % 4)
+        }
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        return CGSize(width: 80, height: 80)
+        let size = (collectionView.frame.size.width - 2 - 3) / 4
+        print(size)
+        return CGSize(width: size, height: size)
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 1
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 1
     }
 
 }
