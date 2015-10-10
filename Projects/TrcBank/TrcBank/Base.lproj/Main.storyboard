@@ -36,7 +36,7 @@
                                     <constraint firstAttribute="height" constant="17" id="qW0-nr-oaF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ee-YM-F51">
@@ -47,7 +47,7 @@
                                     <constraint firstAttribute="width" constant="50" id="vgk-Uf-3hL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="校验码" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50D-dH-ufg">
@@ -58,7 +58,7 @@
                                     <constraint firstAttribute="width" constant="50" id="AiE-YF-sBk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Joj-ec-gFR">
@@ -170,10 +170,10 @@
             </objects>
             <point key="canvasLocation" x="553" y="-969"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -195,7 +195,7 @@
         <!--菜单-手机银行-->
         <scene sceneID="8Zo-2q-tfB">
             <objects>
-                <viewController id="DY7-zz-SKx" userLabel="菜单-手机银行" customClass="BankViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DY7-zz-SKx" userLabel="菜单-手机银行" customClass="MenuViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ByZ-OJ-PZg"/>
                         <viewControllerLayoutGuide type="bottom" id="Wmb-cA-JAJ"/>
@@ -237,7 +237,7 @@
         <!--菜单-生活服务-->
         <scene sceneID="WBd-hK-Wge">
             <objects>
-                <viewController id="d1j-lX-r8D" userLabel="菜单-生活服务" customClass="ServicesViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="d1j-lX-r8D" userLabel="菜单-生活服务" customClass="MenuViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xBN-yH-4cP"/>
                         <viewControllerLayoutGuide type="bottom" id="9Ne-We-dv7"/>
@@ -279,7 +279,7 @@
         <!--菜单-农商资讯-->
         <scene sceneID="EA5-ud-ooW">
             <objects>
-                <viewController id="UIz-Dc-vxg" userLabel="菜单-农商资讯" customClass="InfoViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UIz-Dc-vxg" userLabel="菜单-农商资讯" customClass="MenuViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4dl-Uc-B6A"/>
                         <viewControllerLayoutGuide type="bottom" id="9zn-b6-JiZ"/>
@@ -321,7 +321,7 @@
         <!--菜单-金融助手-->
         <scene sceneID="x2j-0E-mkA">
             <objects>
-                <viewController id="l1i-E4-Oq3" userLabel="菜单-金融助手" customClass="HelperViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="l1i-E4-Oq3" userLabel="菜单-金融助手" customClass="MenuViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tjY-MW-9RK"/>
                         <viewControllerLayoutGuide type="bottom" id="mXT-hI-a6D"/>
