@@ -79,5 +79,14 @@ class BankViewController: UIViewController, UICollectionViewDataSource, UICollec
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
         return 1
     }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        if !delegate.isLogin {
+            if let loginVC = storyboard?.instantiateViewControllerWithIdentifier("LoginNavigationViewController") {
+                presentViewController(loginVC, animated: true, completion: nil)
+            }
+        }
+    }
 
 }
