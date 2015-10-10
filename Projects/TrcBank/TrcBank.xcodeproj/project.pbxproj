@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		AC5745921BC788910016A137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745911BC788910016A137 /* AppDelegate.swift */; };
 		AC5745991BC788910016A137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5745971BC788910016A137 /* Main.storyboard */; };
-		AC57459B1BC788910016A137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC57459A1BC788910016A137 /* Assets.xcassets */; };
 		AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC57459C1BC788910016A137 /* LaunchScreen.storyboard */; };
 		AC5745A91BC788910016A137 /* TrcBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745A81BC788910016A137 /* TrcBankTests.swift */; };
 		AC5745B41BC788910016A137 /* TrcBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745B31BC788910016A137 /* TrcBankUITests.swift */; };
-		AC9919791BC7B4AE00401F85 /* MobileBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9919781BC7B4AE00401F85 /* MobileBankViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AC8486471BC892B100DBD95D /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8486461BC892B100DBD95D /* ServicesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8486481BC8A42900DBD95D /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		AC9919791BC7B4AE00401F85 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9919781BC7B4AE00401F85 /* BankViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		AC99197C1BC7B61400401F85 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99197A1BC7B61400401F85 /* MenuCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		AC99197D1BC7B61400401F85 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC99197B1BC7B61400401F85 /* MenuCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		ACBEF2391BC8A6F60002C1D5 /* HelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEF2381BC8A6F60002C1D5 /* HelperViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACBEF23B1BC8A8580002C1D5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEF23A1BC8A8580002C1D5 /* InfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		AC57458E1BC788910016A137 /* TrcBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrcBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5745911BC788910016A137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC5745981BC788910016A137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC57459A1BC788910016A137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC57459D1BC788910016A137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC57459F1BC788910016A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5745A41BC788910016A137 /* TrcBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrcBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,9 +50,13 @@
 		AC5745AF1BC788910016A137 /* TrcBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrcBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5745B31BC788910016A137 /* TrcBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrcBankUITests.swift; sourceTree = "<group>"; };
 		AC5745B51BC788910016A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC9919781BC7B4AE00401F85 /* MobileBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileBankViewController.swift; sourceTree = "<group>"; };
+		AC8486461BC892B100DBD95D /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		AC8486481BC8A42900DBD95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9919781BC7B4AE00401F85 /* BankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
 		AC99197A1BC7B61400401F85 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		AC99197B1BC7B61400401F85 /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		ACBEF2381BC8A6F60002C1D5 /* HelperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperViewController.swift; sourceTree = "<group>"; };
+		ACBEF23A1BC8A8580002C1D5 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +108,15 @@
 			isa = PBXGroup;
 			children = (
 				AC5745911BC788910016A137 /* AppDelegate.swift */,
-				AC9919781BC7B4AE00401F85 /* MobileBankViewController.swift */,
+				AC9919781BC7B4AE00401F85 /* BankViewController.swift */,
+				AC8486461BC892B100DBD95D /* ServicesViewController.swift */,
+				ACBEF2381BC8A6F60002C1D5 /* HelperViewController.swift */,
+				ACBEF23A1BC8A8580002C1D5 /* InfoViewController.swift */,
 				AC99197A1BC7B61400401F85 /* MenuCollectionViewCell.swift */,
 				AC99197B1BC7B61400401F85 /* MenuCollectionViewCell.xib */,
 				AC5745971BC788910016A137 /* Main.storyboard */,
-				AC57459A1BC788910016A137 /* Assets.xcassets */,
 				AC57459C1BC788910016A137 /* LaunchScreen.storyboard */,
+				AC8486481BC8A42900DBD95D /* Assets.xcassets */,
 				AC57459F1BC788910016A137 /* Info.plist */,
 			);
 			path = TrcBank;
@@ -235,8 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */,
-				AC57459B1BC788910016A137 /* Assets.xcassets in Resources */,
 				AC5745991BC788910016A137 /* Main.storyboard in Resources */,
+				AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */,
 				AC99197D1BC7B61400401F85 /* MenuCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9919791BC7B4AE00401F85 /* MobileBankViewController.swift in Sources */,
+				AC9919791BC7B4AE00401F85 /* BankViewController.swift in Sources */,
 				AC5745921BC788910016A137 /* AppDelegate.swift in Sources */,
+				AC8486471BC892B100DBD95D /* ServicesViewController.swift in Sources */,
 				AC99197C1BC7B61400401F85 /* MenuCollectionViewCell.swift in Sources */,
+				ACBEF23B1BC8A8580002C1D5 /* InfoViewController.swift in Sources */,
+				ACBEF2391BC8A6F60002C1D5 /* HelperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
