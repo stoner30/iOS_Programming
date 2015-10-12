@@ -217,7 +217,7 @@
                             </collectionView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9598957896232605" green="0.96005994081497192" blue="0.95988541841506958" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="rv7-eC-ROK" secondAttribute="trailing" constant="-16" id="3YY-tv-VHs"/>
                             <constraint firstItem="rv7-eC-ROK" firstAttribute="top" secondItem="ByZ-OJ-PZg" secondAttribute="bottom" constant="-64" id="CGJ-YC-z5y"/>
@@ -259,7 +259,7 @@
                             </collectionView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9598957896232605" green="0.96005994081497192" blue="0.95988541841506958" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="f98-Gi-Hz4" firstAttribute="leading" secondItem="wNU-9y-qlV" secondAttribute="leadingMargin" constant="-16" id="LRp-yz-K2U"/>
                             <constraint firstAttribute="trailingMargin" secondItem="f98-Gi-Hz4" secondAttribute="trailing" constant="-16" id="NcR-DA-s3f"/>
@@ -301,7 +301,7 @@
                             </collectionView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9598957896232605" green="0.96005994081497192" blue="0.95988541841506958" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4pc-P7-HvL" firstAttribute="top" secondItem="4dl-Uc-B6A" secondAttribute="bottom" constant="-64" id="7lH-hs-u7G"/>
                             <constraint firstItem="9zn-b6-JiZ" firstAttribute="top" secondItem="4pc-P7-HvL" secondAttribute="bottom" id="BOm-6V-LTG"/>
@@ -343,7 +343,7 @@
                             </collectionView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9598957896232605" green="0.96005994081497192" blue="0.95988541841506958" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mXT-hI-a6D" firstAttribute="top" secondItem="TcS-MQ-aWq" secondAttribute="bottom" id="XU1-Oz-lIX"/>
                             <constraint firstItem="TcS-MQ-aWq" firstAttribute="leading" secondItem="7Av-Af-TwZ" secondAttribute="leadingMargin" constant="-16" id="jOK-1y-IwL"/>

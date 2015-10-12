@@ -23,7 +23,8 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         collectionView.registerNib(UINib(nibName: "MenuCollectionViewCell", bundle: NSBundle.mainBundle()), forCellWithReuseIdentifier: "Cell")
         collectionView.collectionViewLayout = layout
-        collectionView.backgroundColor = UIColor(red: 0.96, green: 0.96, blue: 0.96, alpha: 1)
+//        collectionView.backgroundColor = UIColor(red: 0.96, green: 0.96, blue: 0.96, alpha: 1)
+        collectionView.backgroundColor = UIColor.clearColor()
         collectionView.dataSource = self
         collectionView.delegate = self
     }
@@ -97,6 +98,14 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
         if !delegate.isLogin {
             if let loginVC = storyboard?.instantiateViewControllerWithIdentifier("LoginNavigationViewController") {
                 presentViewController(loginVC, animated: true, completion: nil)
+            }
+        } else {
+            if let storyboardName = items[indexPath.row]["storyboard"] {
+                let storyboard = UIStoryboard(name: storyboardName, bundle: NSBundle.mainBundle())
+                if let vc = storyboard.instantiateInitialViewController() {
+                    vc.navigationItem.title = items[indexPath.row]["text"]
+                    navigationController?.pushViewController(vc, animated: true)
+                }
             }
         }
     }

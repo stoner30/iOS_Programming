@@ -22,7 +22,7 @@ class TabViewController: UITabBarController, UITabBarControllerDelegate {
                 switch index {
                 case 0:
                     vc.items = [
-                        [ "image": "bank_query", "text": "查询服务" ],
+                        [ "image": "bank_query", "text": "查询服务", "storyboard": "Index" ],
                         [ "image": "bank_transfer", "text": "转账汇款" ],
                         [ "image": "bank_credit_card", "text": "信用卡" ],
                         [ "image": "bank_invest", "text": "理财超市" ],

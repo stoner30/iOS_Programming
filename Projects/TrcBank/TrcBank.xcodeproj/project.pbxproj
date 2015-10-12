@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC04632A1BCB5F3D006270F7 /* TransDetailPreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0463291BCB5F3D006270F7 /* TransDetailPreViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		AC5745921BC788910016A137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745911BC788910016A137 /* AppDelegate.swift */; };
 		AC5745991BC788910016A137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5745971BC788910016A137 /* Main.storyboard */; };
 		AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC57459C1BC788910016A137 /* LaunchScreen.storyboard */; };
 		AC5745A91BC788910016A137 /* TrcBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745A81BC788910016A137 /* TrcBankTests.swift */; };
 		AC5745B41BC788910016A137 /* TrcBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745B31BC788910016A137 /* TrcBankUITests.swift */; };
+		AC6FB63B1BCB5673009A2FCC /* Index.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6FB63A1BCB5673009A2FCC /* Index.storyboard */; settings = {ASSET_TAGS = (); }; };
+		AC6FB63D1BCB56E1009A2FCC /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6FB63C1BCB56E1009A2FCC /* IndexViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AC6FB63F1BCB58CF009A2FCC /* TransDetailQuery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6FB63E1BCB58CF009A2FCC /* TransDetailQuery.storyboard */; settings = {ASSET_TAGS = (); }; };
 		AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8486481BC8A42900DBD95D /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		AC86C6831BC8B82B008F828E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86C6821BC8B82B008F828E /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		AC99197C1BC7B61400401F85 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99197A1BC7B61400401F85 /* MenuCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		AC99197D1BC7B61400401F85 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC99197B1BC7B61400401F85 /* MenuCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		ACF806521BC8EAA7007A9E25 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF806511BC8EAA7007A9E25 /* TabViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACF806541BC8F6D3007A9E25 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF806531BC8F6D3007A9E25 /* MenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DE3091AC99EA4532A27B68DA /* Pods_TrcBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B57EBA44B010DE349D77F6 /* Pods_TrcBank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		372C14A7B20A2692519794B8 /* Pods-TrcBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrcBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrcBank/Pods-TrcBank.release.xcconfig"; sourceTree = "<group>"; };
+		6758C12D53D2530AC899AA26 /* Pods-TrcBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrcBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrcBank/Pods-TrcBank.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B57EBA44B010DE349D77F6 /* Pods_TrcBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrcBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0463291BCB5F3D006270F7 /* TransDetailPreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransDetailPreViewController.swift; sourceTree = "<group>"; };
 		AC57458E1BC788910016A137 /* TrcBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrcBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5745911BC788910016A137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC5745981BC788910016A137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		AC5745AF1BC788910016A137 /* TrcBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrcBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5745B31BC788910016A137 /* TrcBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrcBankUITests.swift; sourceTree = "<group>"; };
 		AC5745B51BC788910016A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6FB63A1BCB5673009A2FCC /* Index.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Index.storyboard; sourceTree = "<group>"; };
+		AC6FB63C1BCB56E1009A2FCC /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		AC6FB63E1BCB58CF009A2FCC /* TransDetailQuery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TransDetailQuery.storyboard; sourceTree = "<group>"; };
 		AC8486481BC8A42900DBD95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC86C6821BC8B82B008F828E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC99197A1BC7B61400401F85 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3091AC99EA4532A27B68DA /* Pods_TrcBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +95,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E641D3C85D4B81152E98B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6758C12D53D2530AC899AA26 /* Pods-TrcBank.debug.xcconfig */,
+				372C14A7B20A2692519794B8 /* Pods-TrcBank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC04632B1BCB6613006270F7 /* Bisiness */ = {
+			isa = PBXGroup;
+			children = (
+				AC04632C1BCB6627006270F7 /* Bank */,
+			);
+			name = Bisiness;
+			sourceTree = "<group>";
+		};
+		AC04632C1BCB6627006270F7 /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				AC04632D1BCB6633006270F7 /* Query */,
+			);
+			name = Bank;
+			sourceTree = "<group>";
+		};
+		AC04632D1BCB6633006270F7 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				AC6FB63A1BCB5673009A2FCC /* Index.storyboard */,
+				AC6FB63C1BCB56E1009A2FCC /* IndexViewController.swift */,
+				AC6FB63E1BCB58CF009A2FCC /* TransDetailQuery.storyboard */,
+				AC0463291BCB5F3D006270F7 /* TransDetailPreViewController.swift */,
+			);
+			name = Query;
+			sourceTree = "<group>";
+		};
 		AC5745851BC788910016A137 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +138,8 @@
 				AC5745A71BC788910016A137 /* TrcBankTests */,
 				AC5745B21BC788910016A137 /* TrcBankUITests */,
 				AC57458F1BC788910016A137 /* Products */,
+				07E641D3C85D4B81152E98B6 /* Pods */,
+				AF97C0B9D9D59B5AB1A88820 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +159,7 @@
 				AC5745911BC788910016A137 /* AppDelegate.swift */,
 				ACDF81A21BC9090E0067E26B /* Index */,
 				AC5745971BC788910016A137 /* Main.storyboard */,
+				AC04632B1BCB6613006270F7 /* Bisiness */,
 				AC57459C1BC788910016A137 /* LaunchScreen.storyboard */,
 				AC8486481BC8A42900DBD95D /* Assets.xcassets */,
 				AC57459F1BC788910016A137 /* Info.plist */,
@@ -145,6 +197,14 @@
 			name = Index;
 			sourceTree = "<group>";
 		};
+		AF97C0B9D9D59B5AB1A88820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B57EBA44B010DE349D77F6 /* Pods_TrcBank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC5745B81BC788910016A137 /* Build configuration list for PBXNativeTarget "TrcBank" */;
 			buildPhases = (
+				BDD4C8FFA449EC2869AE5E12 /* Check Pods Manifest.lock */,
 				AC57458A1BC788910016A137 /* Sources */,
 				AC57458B1BC788910016A137 /* Frameworks */,
 				AC57458C1BC788910016A137 /* Resources */,
+				A8BCE3EBA787001546FC08CF /* Embed Pods Frameworks */,
+				DCA52C811BCEF62B6D374964 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,11 +270,13 @@
 		AC5745861BC788910016A137 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Stoner.Wong;
 				TargetAttributes = {
 					AC57458D1BC788910016A137 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 5QR5MQ97FQ;
 					};
 					AC5745A31BC788910016A137 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -248,10 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6FB63F1BCB58CF009A2FCC /* TransDetailQuery.storyboard in Resources */,
 				AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */,
 				AC5745991BC788910016A137 /* Main.storyboard in Resources */,
 				AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */,
 				AC99197D1BC7B61400401F85 /* MenuCollectionViewCell.xib in Resources */,
+				AC6FB63B1BCB5673009A2FCC /* Index.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,13 +338,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A8BCE3EBA787001546FC08CF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrcBank/Pods-TrcBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD4C8FFA449EC2869AE5E12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA52C811BCEF62B6D374964 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrcBank/Pods-TrcBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC57458A1BC788910016A137 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ACF806521BC8EAA7007A9E25 /* TabViewController.swift in Sources */,
+				AC04632A1BCB5F3D006270F7 /* TransDetailPreViewController.swift in Sources */,
 				AC86C6831BC8B82B008F828E /* LoginViewController.swift in Sources */,
+				AC6FB63D1BCB56E1009A2FCC /* IndexViewController.swift in Sources */,
 				AC5745921BC788910016A137 /* AppDelegate.swift in Sources */,
 				ACF806541BC8F6D3007A9E25 /* MenuViewController.swift in Sources */,
 				AC99197C1BC7B61400401F85 /* MenuCollectionViewCell.swift in Sources */,
@@ -418,8 +535,11 @@
 		};
 		AC5745B91BC788910016A137 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6758C12D53D2530AC899AA26 /* Pods-TrcBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TrcBank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nucestudio.TrcBank;
@@ -429,12 +549,17 @@
 		};
 		AC5745BA1BC788910016A137 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372C14A7B20A2692519794B8 /* Pods-TrcBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TrcBank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nucestudio.TrcBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "TrcBank/TrcBank-Bridging-Header.h";
 			};
 			name = Release;
 		};
