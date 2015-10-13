@@ -25,8 +25,8 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func dismiss(sender: UIBarButtonItem) {
-        navigationController?.dismissViewControllerAnimated(true, completion: nil)
+    override func viewWillAppear(animated: Bool) {
+        ViewUtils.initCustomNavigation(self, title: "农商银行")
     }
     
     /**
@@ -69,7 +69,7 @@ class LoginViewController: UIViewController {
         let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
         delegate.isLogin = true
         
-        navigationController?.dismissViewControllerAnimated(true, completion: nil)
+        self.navigationController?.viewControllers.removeLast()
     }
     
     func showValidationMessage(message: String) {

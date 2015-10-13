@@ -8,7 +8,7 @@
         <!--农商银行-->
         <scene sceneID="ClK-f3-c4V">
             <objects>
-                <viewController id="gZv-rF-NKC" customClass="LoginViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="gZv-rF-NKC" customClass="LoginViewController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xds-gb-3dp"/>
                         <viewControllerLayoutGuide type="bottom" id="x9E-Qe-Sb6"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnN-c7-coA">
-                                <rect key="frame" x="60" y="108" width="200" height="26"/>
+                                <rect key="frame" x="60" y="64" width="200" height="26"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="HOE-ye-Ufe"/>
@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICH-NX-4Rb">
-                                <rect key="frame" x="31" y="165" width="50" height="17"/>
+                                <rect key="frame" x="31" y="121" width="50" height="17"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="EL5-9j-pFl"/>
@@ -40,7 +40,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ee-YM-F51">
-                                <rect key="frame" x="31" y="203" width="50" height="17"/>
+                                <rect key="frame" x="31" y="159" width="50" height="17"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="17" id="usT-l7-Ydi"/>
@@ -51,7 +51,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="校验码" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50D-dH-ufg">
-                                <rect key="frame" x="31" y="241" width="50" height="17"/>
+                                <rect key="frame" x="31" y="197" width="50" height="17"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="17" id="6vq-Lu-w0K"/>
@@ -62,7 +62,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Joj-ec-gFR">
-                                <rect key="frame" x="109" y="159" width="180" height="30"/>
+                                <rect key="frame" x="109" y="115" width="180" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="HjJ-IX-Fge"/>
@@ -72,7 +72,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nrJ-ia-jO7">
-                                <rect key="frame" x="109" y="197" width="180" height="30"/>
+                                <rect key="frame" x="109" y="153" width="180" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="5QC-4M-Dft"/>
@@ -82,7 +82,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8pp-qy-Xiw">
-                                <rect key="frame" x="109" y="235" width="80" height="30"/>
+                                <rect key="frame" x="109" y="191" width="80" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="7Wv-V7-3Y8"/>
@@ -92,7 +92,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2222" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0e9-jN-wBe">
-                                <rect key="frame" x="197" y="241" width="50" height="17"/>
+                                <rect key="frame" x="197" y="197" width="50" height="17"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="17" id="dpq-wJ-O69"/>
@@ -103,7 +103,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEG-t2-Ez6">
-                                <rect key="frame" x="20" y="314" width="280" height="45"/>
+                                <rect key="frame" x="20" y="270" width="280" height="45"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.41960784309999999" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -153,13 +153,7 @@
                             <action selector="dismissKeyboard:" destination="gZv-rF-NKC" eventType="touchUpInside" id="Ktd-3j-Pjm"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="农商银行" id="kxz-zl-Mxf">
-                        <barButtonItem key="leftBarButtonItem" systemItem="reply" id="Tgb-1l-ayr">
-                            <connections>
-                                <action selector="dismiss:" destination="gZv-rF-NKC" id="DOd-gq-RM2"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="农商银行" id="kxz-zl-Mxf"/>
                     <connections>
                         <outlet property="txtAccount" destination="Joj-ec-gFR" id="BWL-bF-hGZ"/>
                         <outlet property="txtPassword" destination="nrJ-ia-jO7" id="QGm-OG-7F8"/>
@@ -363,7 +357,7 @@
         <!--手机银行-->
         <scene sceneID="Nk5-Tm-4jj">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4TS-zw-D7t" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4TS-zw-D7t" customClass="NavigationController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="手机银行" image="bar_bank" id="ipA-2e-phF">
                         <inset key="imageInsets" minX="1" minY="1" maxX="1" maxY="1"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
@@ -386,7 +380,7 @@
         <!--生活服务-->
         <scene sceneID="UHS-YA-WGf">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yev-b9-f2v" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yev-b9-f2v" customClass="NavigationController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="生活服务" image="bar_service" id="T2X-Lh-7J5">
                         <inset key="imageInsets" minX="1" minY="1" maxX="1" maxY="1"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
@@ -409,7 +403,7 @@
         <!--金融助手-->
         <scene sceneID="ZDo-ZP-662">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fzI-b3-IoX" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fzI-b3-IoX" customClass="NavigationController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="金融助手" image="bar_helper" id="etp-Ud-98d">
                         <inset key="imageInsets" minX="1" minY="1" maxX="1" maxY="1"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
@@ -432,7 +426,8 @@
         <!--农商资讯-->
         <scene sceneID="bab-FJ-EpC">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kmg-G7-BT1" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S6a-xj-TX2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kmg-G7-BT1" customClass="NavigationController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="农商资讯" image="bar_info" id="rd1-h5-h8k">
                         <inset key="imageInsets" minX="1" minY="1" maxX="1" maxY="1"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
@@ -448,28 +443,8 @@
                         <segue destination="UIz-Dc-vxg" kind="relationship" relationship="rootViewController" id="1Db-o3-GBS"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="S6a-xj-TX2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-277" y="573"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="jyx-hA-StM">
-            <objects>
-                <navigationController storyboardIdentifier="LoginNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="dlP-ol-Smg" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zdl-Dj-8Lu">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="gZv-rF-NKC" kind="relationship" relationship="rootViewController" id="19F-ee-E9H"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="52s-I9-aAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="21" y="-969"/>
         </scene>
     </scenes>
     <resources>

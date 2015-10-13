@@ -31,6 +31,10 @@ class TransDetailPreViewController: UITableViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        ViewUtils.initCustomNavigation(self, title: "交易明细查询")
+    }
+    
     @IBAction func pressOnBtnAccountSelect(sender: AnyObject) {
         let items = [
             [ "no": "6223299901201509396", "currency": "人民币", "type": "钞" ],
@@ -82,6 +86,10 @@ class TransDetailPreViewController: UITableViewController, UITextFieldDelegate {
         picker.showActionSheetPicker()
         
         return false
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        self.navigationItem.title = ""
     }
 
 }

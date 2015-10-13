@@ -35,26 +35,7 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
     }
     
     override func viewWillAppear(animated: Bool) {
-        let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        if !delegate.isLogin {
-            self.navigationItem.rightBarButtonItem = nil
-        } else {
-            self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "close"), style: .Plain, target: self, action: "logout")
-        }
-    }
-    
-    func logout() {
-        let sheetController = UIAlertController(title: nil, message: "您要退出手机银行吗？", preferredStyle: .ActionSheet)
-        let cancelAction = UIAlertAction(title: "取消", style: .Cancel, handler: nil)
-        let okAction = UIAlertAction(title: "确定", style: .Default, handler: { UIAlertAction -> Void in
-            let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
-            delegate.isLogin = false
-            self.navigationItem.rightBarButtonItem = nil
-        })
-        sheetController.addAction(cancelAction)
-        sheetController.addAction(okAction)
-        
-        presentViewController(sheetController, animated: true, completion: nil)
+        ViewUtils.initCustomNavigation(self, title: "农商银行")
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -96,14 +77,16 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
         if !delegate.isLogin {
-            if let loginVC = storyboard?.instantiateViewControllerWithIdentifier("LoginNavigationViewController") {
-                presentViewController(loginVC, animated: true, completion: nil)
+            if let loginVC = storyboard?.instantiateViewControllerWithIdentifier("LoginViewController") {
+                self.navigationItem.title = ""
+                navigationController?.pushViewController(loginVC, animated: true)
             }
         } else {
             if let storyboardName = items[indexPath.row]["storyboard"] {
                 let storyboard = UIStoryboard(name: storyboardName, bundle: NSBundle.mainBundle())
                 if let vc = storyboard.instantiateInitialViewController() {
                     vc.navigationItem.title = items[indexPath.row]["text"]
+                    self.navigationItem.title = ""
                     navigationController?.pushViewController(vc, animated: true)
                 }
             }
