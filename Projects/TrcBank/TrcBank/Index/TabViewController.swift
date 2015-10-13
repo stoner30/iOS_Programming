@@ -72,7 +72,6 @@ class TabViewController: UITabBarController, UITabBarControllerDelegate {
                 }
             }
         }
-        
     }
 
     override func didReceiveMemoryWarning() {

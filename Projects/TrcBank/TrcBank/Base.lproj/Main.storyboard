@@ -35,7 +35,7 @@
                                     <constraint firstAttribute="width" constant="50" id="EL5-9j-pFl"/>
                                     <constraint firstAttribute="height" constant="17" id="qW0-nr-oaF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -46,7 +46,7 @@
                                     <constraint firstAttribute="height" constant="17" id="usT-l7-Ydi"/>
                                     <constraint firstAttribute="width" constant="50" id="vgk-Uf-3hL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -57,7 +57,7 @@
                                     <constraint firstAttribute="height" constant="17" id="6vq-Lu-w0K"/>
                                     <constraint firstAttribute="width" constant="50" id="AiE-YF-sBk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -98,19 +98,19 @@
                                     <constraint firstAttribute="height" constant="17" id="dpq-wJ-O69"/>
                                     <constraint firstAttribute="width" constant="50" id="oZP-qw-Lkz"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEG-t2-Ez6">
-                                <rect key="frame" x="20" y="373" width="280" height="45"/>
+                                <rect key="frame" x="20" y="314" width="280" height="45"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.41960784309999999" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="19H-gi-kgT"/>
                                     <constraint firstAttribute="height" constant="45" id="wom-fs-BI1"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="登录">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -129,6 +129,7 @@
                         <constraints>
                             <constraint firstItem="ICH-NX-4Rb" firstAttribute="top" secondItem="Xds-gb-3dp" secondAttribute="bottom" constant="101" id="6C7-iM-XVA"/>
                             <constraint firstItem="nrJ-ia-jO7" firstAttribute="top" secondItem="Joj-ec-gFR" secondAttribute="bottom" constant="8" id="818-Kp-gr7"/>
+                            <constraint firstItem="UEG-t2-Ez6" firstAttribute="top" secondItem="Xds-gb-3dp" secondAttribute="bottom" constant="250" id="CsZ-JT-PEI"/>
                             <constraint firstItem="8Ee-YM-F51" firstAttribute="leading" secondItem="GPo-aP-CFT" secondAttribute="leadingMargin" constant="15" id="DJt-hv-NdO"/>
                             <constraint firstItem="nrJ-ia-jO7" firstAttribute="leading" secondItem="8Ee-YM-F51" secondAttribute="trailing" constant="28" id="G8z-C1-2SW"/>
                             <constraint firstItem="50D-dH-ufg" firstAttribute="top" secondItem="8Ee-YM-F51" secondAttribute="bottom" constant="21" id="H1D-YO-v8m"/>
@@ -147,7 +148,6 @@
                             <constraint firstItem="0e9-jN-wBe" firstAttribute="top" secondItem="nrJ-ia-jO7" secondAttribute="bottom" constant="14" id="lg8-Zj-xb6"/>
                             <constraint firstItem="50D-dH-ufg" firstAttribute="leading" secondItem="GPo-aP-CFT" secondAttribute="leadingMargin" constant="15" id="ry7-4u-KUZ"/>
                             <constraint firstItem="0e9-jN-wBe" firstAttribute="leading" secondItem="8pp-qy-Xiw" secondAttribute="trailing" constant="8" id="vaB-Rr-zNC"/>
-                            <constraint firstItem="x9E-Qe-Sb6" firstAttribute="top" secondItem="UEG-t2-Ez6" secondAttribute="bottom" constant="150" id="wa6-ac-r3D"/>
                         </constraints>
                         <connections>
                             <action selector="dismissKeyboard:" destination="gZv-rF-NKC" eventType="touchUpInside" id="Ktd-3j-Pjm"/>

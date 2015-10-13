@@ -26,20 +26,20 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择查询账号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQT-0c-nRu">
-                                                    <rect key="frame" x="16" y="13" width="98" height="17"/>
+                                                    <rect key="frame" x="16" y="13" width="112" height="20"/>
                                                     <animations/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="17" id="QO8-Vi-j4k"/>
-                                                        <constraint firstAttribute="width" constant="98" id="Shl-TM-H9X"/>
+                                                        <constraint firstAttribute="height" constant="20" id="QO8-Vi-j4k"/>
+                                                        <constraint firstAttribute="width" constant="112" id="Shl-TM-H9X"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
-                                                <constraint firstItem="nQT-0c-nRu" firstAttribute="centerY" secondItem="udf-yO-cbA" secondAttribute="centerY" id="btd-lv-jKB"/>
+                                                <constraint firstItem="nQT-0c-nRu" firstAttribute="centerY" secondItem="udf-yO-cbA" secondAttribute="centerY" constant="1.25" id="btd-lv-jKB"/>
                                                 <constraint firstItem="nQT-0c-nRu" firstAttribute="leading" secondItem="udf-yO-cbA" secondAttribute="leadingMargin" constant="8" id="jFv-ZU-FCr"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -53,20 +53,20 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPw-0x-r2J">
-                                                    <rect key="frame" x="282" y="7" width="30" height="29"/>
+                                                    <rect key="frame" x="272" y="5" width="32" height="32"/>
                                                     <animations/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="30" id="HkM-LZ-QN8"/>
-                                                        <constraint firstAttribute="height" constant="29" id="Yoc-cj-V3B"/>
+                                                        <constraint firstAttribute="width" constant="32" id="HkM-LZ-QN8"/>
+                                                        <constraint firstAttribute="height" constant="32" id="Yoc-cj-V3B"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <state key="normal" title="选择"/>
                                                     <connections>
                                                         <action selector="pressOnBtnAccountSelect:" destination="z9L-rG-DH1" eventType="touchUpInside" id="apx-Uz-9GI"/>
                                                     </connections>
                                                 </button>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请选择账户" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8B3-hO-gHH">
-                                                    <rect key="frame" x="16" y="7" width="258" height="30"/>
+                                                    <rect key="frame" x="16" y="7" width="248" height="30"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -78,7 +78,7 @@
                                                 <constraint firstItem="8B3-hO-gHH" firstAttribute="leading" secondItem="dMm-SM-yPD" secondAttribute="leadingMargin" constant="8" id="3r3-2n-7j1"/>
                                                 <constraint firstItem="OPw-0x-r2J" firstAttribute="centerY" secondItem="dMm-SM-yPD" secondAttribute="centerY" id="5Oc-Rm-1pZ"/>
                                                 <constraint firstItem="OPw-0x-r2J" firstAttribute="leading" secondItem="8B3-hO-gHH" secondAttribute="trailing" constant="8" id="nxU-zR-Qdp"/>
-                                                <constraint firstItem="OPw-0x-r2J" firstAttribute="trailing" secondItem="dMm-SM-yPD" secondAttribute="trailingMargin" id="o69-zf-WYT"/>
+                                                <constraint firstItem="OPw-0x-r2J" firstAttribute="trailing" secondItem="dMm-SM-yPD" secondAttribute="trailingMargin" constant="-8" id="o69-zf-WYT"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
@@ -90,35 +90,35 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="币种：加载中..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIC-tQ-kpU">
-                                                    <rect key="frame" x="16" y="14" width="140" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="币种：无" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIC-tQ-kpU">
+                                                    <rect key="frame" x="16" y="14" width="140" height="20"/>
                                                     <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="140" id="DqL-vf-leq"/>
-                                                        <constraint firstAttribute="height" constant="17" id="ILu-2Y-2aW"/>
+                                                        <constraint firstAttribute="height" constant="20" id="ILu-2Y-2aW"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="钞汇类型：加载中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOW-o0-eBK">
-                                                    <rect key="frame" x="172" y="13" width="140" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="钞汇类型：无" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOW-o0-eBK">
+                                                    <rect key="frame" x="164" y="13" width="140" height="20"/>
                                                     <animations/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="17" id="V4J-tO-wfs"/>
+                                                        <constraint firstAttribute="height" constant="20" id="V4J-tO-wfs"/>
                                                         <constraint firstAttribute="width" constant="140" id="sy7-4c-Bte"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
-                                                <constraint firstItem="SOW-o0-eBK" firstAttribute="centerY" secondItem="Yyb-8w-ARq" secondAttribute="centerY" id="BjK-7s-hDW"/>
+                                                <constraint firstItem="SOW-o0-eBK" firstAttribute="centerY" secondItem="Yyb-8w-ARq" secondAttribute="centerY" constant="1.25" id="BjK-7s-hDW"/>
                                                 <constraint firstItem="XIC-tQ-kpU" firstAttribute="leading" secondItem="Yyb-8w-ARq" secondAttribute="leadingMargin" constant="8" id="Hwt-kc-CMr"/>
-                                                <constraint firstItem="XIC-tQ-kpU" firstAttribute="centerY" secondItem="Yyb-8w-ARq" secondAttribute="centerY" id="bbf-Tw-jEX"/>
-                                                <constraint firstItem="SOW-o0-eBK" firstAttribute="trailing" secondItem="Yyb-8w-ARq" secondAttribute="trailingMargin" id="okI-sq-FJd"/>
+                                                <constraint firstItem="XIC-tQ-kpU" firstAttribute="centerY" secondItem="Yyb-8w-ARq" secondAttribute="centerY" constant="2.25" id="bbf-Tw-jEX"/>
+                                                <constraint firstItem="SOW-o0-eBK" firstAttribute="trailing" secondItem="Yyb-8w-ARq" secondAttribute="trailingMargin" constant="-8" id="okI-sq-FJd"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
@@ -135,13 +135,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择起止日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdD-2s-FQw">
-                                                    <rect key="frame" x="16" y="14" width="98" height="17"/>
+                                                    <rect key="frame" x="16" y="14" width="112" height="20"/>
                                                     <animations/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="98" id="ilR-h8-Nbq"/>
-                                                        <constraint firstAttribute="height" constant="17" id="xYs-rp-UyU"/>
+                                                        <constraint firstAttribute="width" constant="112" id="ilR-h8-Nbq"/>
+                                                        <constraint firstAttribute="height" constant="20" id="xYs-rp-UyU"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -149,7 +149,7 @@
                                             <animations/>
                                             <constraints>
                                                 <constraint firstItem="QdD-2s-FQw" firstAttribute="leading" secondItem="g7s-uH-nCP" secondAttribute="leadingMargin" constant="8" id="Afr-77-sA6"/>
-                                                <constraint firstItem="QdD-2s-FQw" firstAttribute="centerY" secondItem="g7s-uH-nCP" secondAttribute="centerY" id="hxU-EI-wnW"/>
+                                                <constraint firstItem="QdD-2s-FQw" firstAttribute="centerY" secondItem="g7s-uH-nCP" secondAttribute="centerY" constant="2.25" id="hxU-EI-wnW"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
@@ -162,18 +162,18 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="起始日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thB-ak-iRB">
-                                                    <rect key="frame" x="16" y="13" width="56" height="17"/>
+                                                    <rect key="frame" x="16" y="13" width="64" height="20"/>
                                                     <animations/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="17" id="4k6-I7-YVk"/>
-                                                        <constraint firstAttribute="width" constant="56" id="XbB-pW-4vB"/>
+                                                        <constraint firstAttribute="height" constant="20" id="4k6-I7-YVk"/>
+                                                        <constraint firstAttribute="width" constant="64" id="XbB-pW-4vB"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="点击选择起始日期" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LAB-zH-CvB">
-                                                    <rect key="frame" x="80" y="7" width="232" height="30"/>
+                                                    <rect key="frame" x="88" y="7" width="216" height="30"/>
                                                     <animations/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -184,9 +184,9 @@
                                             <constraints>
                                                 <constraint firstItem="LAB-zH-CvB" firstAttribute="centerY" secondItem="Phn-3M-5Lu" secondAttribute="centerY" id="INX-MQ-jIY"/>
                                                 <constraint firstItem="LAB-zH-CvB" firstAttribute="leading" secondItem="thB-ak-iRB" secondAttribute="trailing" constant="8" id="L4M-aM-tle"/>
-                                                <constraint firstItem="LAB-zH-CvB" firstAttribute="trailing" secondItem="Phn-3M-5Lu" secondAttribute="trailingMargin" id="pEz-iP-oDB"/>
+                                                <constraint firstItem="LAB-zH-CvB" firstAttribute="trailing" secondItem="Phn-3M-5Lu" secondAttribute="trailingMargin" constant="-8" id="pEz-iP-oDB"/>
                                                 <constraint firstItem="thB-ak-iRB" firstAttribute="leading" secondItem="Phn-3M-5Lu" secondAttribute="leadingMargin" constant="8" id="qIE-FV-DmC"/>
-                                                <constraint firstItem="thB-ak-iRB" firstAttribute="centerY" secondItem="Phn-3M-5Lu" secondAttribute="centerY" id="skG-kh-GA9"/>
+                                                <constraint firstItem="thB-ak-iRB" firstAttribute="centerY" secondItem="Phn-3M-5Lu" secondAttribute="centerY" constant="1.25" id="skG-kh-GA9"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
@@ -199,18 +199,18 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="截止日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhl-2j-iba">
-                                                    <rect key="frame" x="16" y="14" width="56" height="17"/>
+                                                    <rect key="frame" x="16" y="14" width="64" height="20"/>
                                                     <animations/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="17" id="c9D-pP-4Yt"/>
-                                                        <constraint firstAttribute="width" constant="56" id="j6B-FQ-eoq"/>
+                                                        <constraint firstAttribute="height" constant="20" id="c9D-pP-4Yt"/>
+                                                        <constraint firstAttribute="width" constant="64" id="j6B-FQ-eoq"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="点击选择截止日期" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JxH-yu-7dw">
-                                                    <rect key="frame" x="80" y="7" width="232" height="30"/>
+                                                    <rect key="frame" x="88" y="7" width="216" height="30"/>
                                                     <animations/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -219,8 +219,8 @@
                                             </subviews>
                                             <animations/>
                                             <constraints>
-                                                <constraint firstItem="Nhl-2j-iba" firstAttribute="centerY" secondItem="SDY-Lc-lad" secondAttribute="centerY" id="0VI-Ff-aAt"/>
-                                                <constraint firstItem="JxH-yu-7dw" firstAttribute="trailing" secondItem="SDY-Lc-lad" secondAttribute="trailingMargin" id="3Vh-2h-HKg"/>
+                                                <constraint firstItem="Nhl-2j-iba" firstAttribute="centerY" secondItem="SDY-Lc-lad" secondAttribute="centerY" constant="2.25" id="0VI-Ff-aAt"/>
+                                                <constraint firstItem="JxH-yu-7dw" firstAttribute="trailing" secondItem="SDY-Lc-lad" secondAttribute="trailingMargin" constant="-8" id="3Vh-2h-HKg"/>
                                                 <constraint firstItem="JxH-yu-7dw" firstAttribute="leading" secondItem="Nhl-2j-iba" secondAttribute="trailing" constant="8" id="Mrv-Kf-r1M"/>
                                                 <constraint firstItem="JxH-yu-7dw" firstAttribute="centerY" secondItem="SDY-Lc-lad" secondAttribute="centerY" id="uIv-0P-Y0g"/>
                                                 <constraint firstItem="Nhl-2j-iba" firstAttribute="leading" secondItem="SDY-Lc-lad" secondAttribute="leadingMargin" constant="8" id="v77-9I-01F"/>
@@ -246,7 +246,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="3g9-l6-dNj"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                     <state key="normal" title="提交">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
