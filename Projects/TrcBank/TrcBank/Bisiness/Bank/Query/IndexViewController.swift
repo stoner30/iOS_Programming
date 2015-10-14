@@ -29,7 +29,7 @@ class IndexViewController: UITableViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        ViewUtils.initCustomNavigation(self, title: "查询服务")
+        GBViewHelpers.initCustomNavigation(self, title: "查询服务")
     }
 
     // MARK: - Table view data source

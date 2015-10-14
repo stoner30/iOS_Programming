@@ -19,7 +19,7 @@ class GBLoginViewController: UIViewController {
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
     }
     
     override func viewDidLoad() {
@@ -34,7 +34,7 @@ class GBLoginViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        ViewUtils.initCustomNavigation(self, title: "农商银行")
+        GBViewHelpers.initCustomNavigation(self, title: "农商银行")
     }
     
     /**

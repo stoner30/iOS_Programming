@@ -43,7 +43,7 @@ class AccountInfoDetailTableViewController: UITableViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        ViewUtils.initCustomNavigation(self, title: "账户详细信息")
+        GBViewHelpers.initCustomNavigation(self, title: "账户详细信息")
     }
 
 }

@@ -32,7 +32,7 @@ class TransDetailPreViewController: UITableViewController, UITextFieldDelegate {
     }
     
     override func viewWillAppear(animated: Bool) {
-        ViewUtils.initCustomNavigation(self, title: "交易明细查询")
+        GBViewHelpers.initCustomNavigation(self, title: "交易明细查询")
     }
     
     @IBAction func pressOnBtnAccountSelect(sender: AnyObject) {

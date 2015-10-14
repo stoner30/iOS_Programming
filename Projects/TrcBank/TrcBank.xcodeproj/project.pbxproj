@@ -27,10 +27,13 @@
 		ACA212D31BCE56A2000B66AA /* GBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA212C81BCE56A2000B66AA /* GBNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACA212D41BCE56A2000B66AA /* GBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA212CA1BCE56A2000B66AA /* GBLoginViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		ACA212D51BCE56A2000B66AA /* GBMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA212CB1BCE56A2000B66AA /* GBMenuCell.xib */; settings = {ASSET_TAGS = (); }; };
-		ACA212D61BCE56A2000B66AA /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA212CD1BCE56A2000B66AA /* ViewUtils.swift */; settings = {ASSET_TAGS = (); }; };
+		ACA212D61BCE56A2000B66AA /* GBHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA212CD1BCE56A2000B66AA /* GBHelpers.swift */; settings = {ASSET_TAGS = (); }; };
 		ACB0BF991BCCB4CD00E3334F /* TransDetailListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0BF981BCCB4CD00E3334F /* TransDetailListTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACB0BF9B1BCCB76800E3334F /* TransDetailListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0BF9A1BCCB76800E3334F /* TransDetailListTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		ACB0BF9D1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0BF9C1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACE69D271BCE982C002A7369 /* MMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69D261BCE982C002A7369 /* MMenu.swift */; settings = {ASSET_TAGS = (); }; };
+		ACE69D291BCEA84F002A7369 /* GBSubMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */; settings = {ASSET_TAGS = (); }; };
 		DE3091AC99EA4532A27B68DA /* Pods_TrcBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B57EBA44B010DE349D77F6 /* Pods_TrcBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,10 +84,13 @@
 		ACA212C81BCE56A2000B66AA /* GBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBNavigationController.swift; sourceTree = "<group>"; };
 		ACA212CA1BCE56A2000B66AA /* GBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBLoginViewController.xib; sourceTree = "<group>"; };
 		ACA212CB1BCE56A2000B66AA /* GBMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBMenuCell.xib; sourceTree = "<group>"; };
-		ACA212CD1BCE56A2000B66AA /* ViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		ACA212CD1BCE56A2000B66AA /* GBHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHelpers.swift; sourceTree = "<group>"; };
 		ACB0BF981BCCB4CD00E3334F /* TransDetailListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransDetailListTableViewController.swift; sourceTree = "<group>"; };
 		ACB0BF9A1BCCB76800E3334F /* TransDetailListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransDetailListTableViewCell.swift; sourceTree = "<group>"; };
 		ACB0BF9C1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransDetailInfoTableViewController.swift; sourceTree = "<group>"; };
+		ACE69D261BCE982C002A7369 /* MMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMenu.swift; sourceTree = "<group>"; };
+		ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBSubMenuViewController.swift; sourceTree = "<group>"; };
+		ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBSubMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,7 @@
 		AC5745901BC788910016A137 /* TrcBank */ = {
 			isa = PBXGroup;
 			children = (
+				ACE69D251BCE97F0002A7369 /* Model */,
 				ACA212C01BCE56A2000B66AA /* Core */,
 				ACA212C21BCE56A2000B66AA /* General */,
 				AC72308C1BCCA43100556D8F /* Bisiness */,
@@ -234,6 +241,7 @@
 				ACA212C51BCE56A2000B66AA /* GBMenuCell.swift */,
 				ACA212C61BCE56A2000B66AA /* GBMenuLayout.swift */,
 				ACA212C71BCE56A2000B66AA /* GBMenuViewController.swift */,
+				ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */,
 				ACA212C81BCE56A2000B66AA /* GBNavigationController.swift */,
 			);
 			path = Base;
@@ -244,6 +252,7 @@
 			children = (
 				ACA212CA1BCE56A2000B66AA /* GBLoginViewController.xib */,
 				ACA212CB1BCE56A2000B66AA /* GBMenuCell.xib */,
+				ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -251,9 +260,17 @@
 		ACA212CC1BCE56A2000B66AA /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				ACA212CD1BCE56A2000B66AA /* ViewUtils.swift */,
+				ACA212CD1BCE56A2000B66AA /* GBHelpers.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		ACE69D251BCE97F0002A7369 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACE69D261BCE982C002A7369 /* MMenu.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AF97C0B9D9D59B5AB1A88820 /* Frameworks */ = {
@@ -378,6 +395,7 @@
 				AC8C31141BCDF1250088DA80 /* AccountInfoQuery.storyboard in Resources */,
 				AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */,
 				AC7230991BCCA43100556D8F /* Index.storyboard in Resources */,
+				ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */,
 				ACA212D41BCE56A2000B66AA /* GBLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,10 +477,12 @@
 				ACB0BF991BCCB4CD00E3334F /* TransDetailListTableViewController.swift in Sources */,
 				AC72309B1BCCA43100556D8F /* TransDetailPreViewController.swift in Sources */,
 				ACA212D01BCE56A2000B66AA /* GBMenuCell.swift in Sources */,
+				ACE69D271BCE982C002A7369 /* MMenu.swift in Sources */,
+				ACE69D291BCEA84F002A7369 /* GBSubMenuViewController.swift in Sources */,
 				ACA212CE1BCE56A2000B66AA /* AppDelegate.swift in Sources */,
 				AC72309A1BCCA43100556D8F /* IndexViewController.swift in Sources */,
 				ACB0BF9D1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift in Sources */,
-				ACA212D61BCE56A2000B66AA /* ViewUtils.swift in Sources */,
+				ACA212D61BCE56A2000B66AA /* GBHelpers.swift in Sources */,
 				AC8C31161BCDF1950088DA80 /* AccountInfoListTableViewController.swift in Sources */,
 				AC8C311A1BCDFC8F0088DA80 /* AccountInfoDetailTableViewController.swift in Sources */,
 				ACB0BF9B1BCCB76800E3334F /* TransDetailListTableViewCell.swift in Sources */,

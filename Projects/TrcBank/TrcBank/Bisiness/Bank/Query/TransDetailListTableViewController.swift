@@ -31,7 +31,7 @@ class TransDetailListTableViewController: UITableViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        ViewUtils.initCustomNavigation(self, title: "交易明细查询")
+        GBViewHelpers.initCustomNavigation(self, title: "交易明细查询")
     }
 
     // MARK: - Table view data source

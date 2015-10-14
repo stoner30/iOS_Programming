@@ -12,15 +12,15 @@ private let reuseIdentifier = "Cell"
 
 class GBMenuViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
-    var menus: [[String: String]]!
+    var menus: [MMenu]!
     
-    init(collectionViewLayout layout: UICollectionViewLayout, menus: [[String: String]]) {
+    init(collectionViewLayout layout: UICollectionViewLayout, menus: [MMenu]) {
         super.init(collectionViewLayout: layout)
         self.menus = menus
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
     }
     
     override func viewDidLoad() {
@@ -28,6 +28,8 @@ class GBMenuViewController: UICollectionViewController, UICollectionViewDelegate
 
         self.collectionView!.registerNib(UINib(nibName: "GBMenuCell", bundle: NSBundle.mainBundle()), forCellWithReuseIdentifier: reuseIdentifier)
         self.collectionView!.backgroundColor = UIColor(red: 0.96, green: 0.96, blue: 0.96, alpha: 1)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,7 +37,7 @@ class GBMenuViewController: UICollectionViewController, UICollectionViewDelegate
     }
     
     override func viewWillAppear(animated: Bool) {
-        ViewUtils.initCustomNavigation(self, title: "农商银行")
+        GBViewHelpers.initCustomNavigation(self, title: "农商银行")
     }
 
     // MARK: UICollectionViewDataSource
@@ -53,8 +55,8 @@ class GBMenuViewController: UICollectionViewController, UICollectionViewDelegate
         
         if indexPath.row < menus.count {
             let menu = menus[indexPath.row]
-            cell.icon.image = UIImage(named: menu["image"]!)
-            cell.text.text = menu["text"]!
+            cell.icon.image = UIImage(named: menu.image!)
+            cell.text.text = menu.name
         } else {
             cell.icon.image = nil
             cell.text.text = ""
@@ -91,7 +93,12 @@ class GBMenuViewController: UICollectionViewController, UICollectionViewDelegate
             let loginVC = GBLoginViewController(nibName: "GBLoginViewController", bundle: NSBundle.mainBundle())
             navigationController?.pushViewController(loginVC, animated: true)
         } else {
-            // TODO: 判断是否存在二级菜单，如果存在就初始化二级菜单的TabViewController，否则直接跳转至相应的Storyboard
+            let menu = menus[indexPath.row]
+            if menu.haveSubMenu {
+                let subMenuViewController = GBSubMenuViewController(nibName: "GBSubMenu", bundle: NSBundle.mainBundle(), subMenus: menu.subMenus!)
+                subMenuViewController.navigationItem.title = menu.name
+                navigationController?.pushViewController(subMenuViewController, animated: true)
+            }
         }
     }
     

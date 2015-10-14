@@ -27,7 +27,7 @@ class AccountInfoListTableViewController: UITableViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        ViewUtils.initCustomNavigation(self, title: "账户信息查询")
+        GBViewHelpers.initCustomNavigation(self, title: "账户信息查询")
     }
 
     // MARK: - Table view data source

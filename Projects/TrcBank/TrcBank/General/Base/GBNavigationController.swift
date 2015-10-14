@@ -42,6 +42,10 @@ class GBNavigationController: UINavigationController, UINavigationControllerDele
             viewController.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "close"), style: .Plain, target: self, action: "logout")
         }
     }
+    
+    func navigationController(navigationController: UINavigationController, didShowViewController viewController: UIViewController, animated: Bool) {
+        viewController.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
+    }
 
     func logout() {
         let sheetController = UIAlertController(title: nil, message: "您要退出手机银行吗？", preferredStyle: .Alert)
