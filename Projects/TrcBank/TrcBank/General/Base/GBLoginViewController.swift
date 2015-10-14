@@ -8,11 +8,19 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class GBLoginViewController: UIViewController {
 
     @IBOutlet weak var txtAccount: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
     @IBOutlet weak var txtRandomCode: UITextField!
+    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

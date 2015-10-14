@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MenuCollectionViewCell: UICollectionViewCell {
+class GBMenuCell: UICollectionViewCell {
 
     @IBOutlet weak var icon: UIImageView!
     @IBOutlet weak var text: UILabel!
