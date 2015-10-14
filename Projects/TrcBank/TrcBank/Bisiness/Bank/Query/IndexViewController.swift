@@ -12,7 +12,7 @@ class IndexViewController: UITableViewController {
 
     let items = [
         [ "text": "交易明细查询", "storyboard": "TransDetailQuery" ],
-        [ "text": "账户信息查询" ],
+        [ "text": "账户信息查询", "storyboard": "AccountInfoQuery" ],
         [ "text": "跨行账户信息查询" ],
         [ "text": "手机日志查询" ]
     ]

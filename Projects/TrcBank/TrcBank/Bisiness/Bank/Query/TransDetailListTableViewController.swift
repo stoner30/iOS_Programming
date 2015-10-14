@@ -11,11 +11,11 @@ import UIKit
 class TransDetailListTableViewController: UITableViewController {
 
     let items = [
-        [ "transDate": "2015-09-09", "transTime": "12:35:55", "type": "收入", "bank": "农工商银行西青田丽分理处", "account": "6225****2677", "transAmt": "100.00", "currency": "人民币", "remark": "农信银转账" ],
-        [ "transDate": "2015-09-10", "transTime": "09:01:45", "type": "支出", "bank": "农工商银行西青田丽分理处", "account": "6225****2677", "transAmt": "2000.00", "currency": "人民币", "remark": "跨行转账" ],
-        [ "transDate": "2015-09-11", "transTime": "07:55:30", "type": "支出", "bank": "农工商银行西青田丽分理处", "account": "6225****2677", "transAmt": "55.00", "currency": "美元", "remark": "国际支付" ],
-        [ "transDate": "2015-10-01", "transTime": "03:22:03", "type": "收入", "bank": "农工商银行西青田丽分理处", "account": "6225****2677", "transAmt": "100.00", "currency": "人民币", "remark": "普通贷记往帐" ],
-        [ "transDate": "2015-10-02", "transTime": "12:35:55", "type": "收入", "bank": "农工商银行西青田丽分理处", "account": "6225****2677", "transAmt": "100.00", "currency": "人民币", "remark": "普通贷记往帐" ],
+        [ "transDate": "2015-09-09", "transTime": "12:35:55", "type": "收入", "bank": "农商银行西青田丽分理处", "account": "6225****2677", "transAmt": "100.00", "currency": "人民币", "remark": "农信银转账" ],
+        [ "transDate": "2015-09-10", "transTime": "09:01:45", "type": "支出", "bank": "农商银行西青田丽分理处", "account": "6225****2677", "transAmt": "2000.00", "currency": "人民币", "remark": "跨行转账" ],
+        [ "transDate": "2015-09-11", "transTime": "07:55:30", "type": "支出", "bank": "农商银行西青田丽分理处", "account": "6225****2677", "transAmt": "55.00", "currency": "美元", "remark": "国际支付" ],
+        [ "transDate": "2015-10-01", "transTime": "03:22:03", "type": "收入", "bank": "农商银行西青田丽分理处", "account": "6225****2677", "transAmt": "100.00", "currency": "人民币", "remark": "普通贷记往帐" ],
+        [ "transDate": "2015-10-02", "transTime": "12:35:55", "type": "收入", "bank": "农商银行西青田丽分理处", "account": "6225****2677", "transAmt": "100.00", "currency": "人民币", "remark": "普通贷记往帐" ],
     ]
     let labels = [
         "transDate": "交易日期", "transTime": "交易时间", "type": "收入支出", "bank": "交易机构", "account": "对方账号", "transAmt": "交易金额", "currency": "币种", "remark": "摘要"
