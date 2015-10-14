@@ -22,11 +22,8 @@ class NavigationController: UINavigationController, UINavigationControllerDelega
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewWillAppear(animated: Bool) {
-    }
-    
     func logout() {
-        let sheetController = UIAlertController(title: nil, message: "您要退出手机银行吗？", preferredStyle: .ActionSheet)
+        let sheetController = UIAlertController(title: nil, message: "您要退出手机银行吗？", preferredStyle: .Alert)
         let cancelAction = UIAlertAction(title: "取消", style: .Cancel, handler: nil)
         let okAction = UIAlertAction(title: "确定", style: .Default, handler: { UIAlertAction -> Void in
             let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
@@ -36,8 +33,8 @@ class NavigationController: UINavigationController, UINavigationControllerDelega
                 viewController.navigationItem.rightBarButtonItem = nil
             }
         })
-        sheetController.addAction(cancelAction)
         sheetController.addAction(okAction)
+        sheetController.addAction(cancelAction)
         
         self.presentViewController(sheetController, animated: true, completion: nil)
     }

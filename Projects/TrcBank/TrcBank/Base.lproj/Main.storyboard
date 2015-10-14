@@ -426,7 +426,6 @@
         <!--农商资讯-->
         <scene sceneID="bab-FJ-EpC">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="S6a-xj-TX2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kmg-G7-BT1" customClass="NavigationController" customModule="TrcBank" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="农商资讯" image="bar_info" id="rd1-h5-h8k">
                         <inset key="imageInsets" minX="1" minY="1" maxX="1" maxY="1"/>
@@ -443,6 +442,7 @@
                         <segue destination="UIz-Dc-vxg" kind="relationship" relationship="rootViewController" id="1Db-o3-GBS"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S6a-xj-TX2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-277" y="573"/>
         </scene>

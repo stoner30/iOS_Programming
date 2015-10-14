@@ -18,11 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
 
-        // 设置TabBar的图片的颜色为红色
-        UITabBar.appearance().tintColor = UIColor(red: 255 / 255, green: 58 / 255, blue: 58 / 255, alpha: 1)
+        // 设置TabBar的图片的颜色为橙色
+        UITabBar.appearance().tintColor = UIColor(red: 234 / 255, green: 87 / 255, blue: 4 / 255, alpha: 1)
         
-        // 设置导航栏的背景色为蓝色
-        UINavigationBar.appearance().barTintColor = UIColor(red: 119 / 255, green: 136 / 255, blue: 153 / 255, alpha: 1)
+        // 设置导航栏的背景色为橙色
+        UINavigationBar.appearance().barTintColor = UIColor(red: 234 / 255, green: 87 / 255, blue: 4 / 255, alpha: 1)
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         // 设置导航栏的字体及字体颜色
         if let barFont = UIFont(name: "PingFangSC-Medium", size: 22.0) {

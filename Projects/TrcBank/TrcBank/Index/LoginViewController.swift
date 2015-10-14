@@ -69,7 +69,9 @@ class LoginViewController: UIViewController {
         let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
         delegate.isLogin = true
         
-        self.navigationController?.viewControllers.removeLast()
+//        self.navigationController?.popToRootViewControllerAnimated(true)
+        self.navigationController?.popViewControllerAnimated(true)
+//        self.navigationController?.viewControllers.removeLast()
     }
     
     func showValidationMessage(message: String) {
