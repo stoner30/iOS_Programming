@@ -58,12 +58,12 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XG3-BZ-DIv">
-                    <rect key="frame" x="60" y="328" width="200" height="45"/>
+                    <rect key="frame" x="30" y="328" width="260" height="45"/>
                     <animations/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.41960784309999999" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="LOa-zj-vZm"/>
-                        <constraint firstAttribute="width" constant="200" id="U6L-6h-IIB"/>
+                        <constraint firstAttribute="width" constant="260" id="U6L-6h-IIB"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                     <state key="normal" title="登录">

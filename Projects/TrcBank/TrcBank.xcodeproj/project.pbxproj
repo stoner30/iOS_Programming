@@ -35,6 +35,7 @@
 		ACFF344E1BCF30EE00FAF2E1 /* SQSTDQMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF344D1BCF30EE00FAF2E1 /* SQSTDQMModel.swift */; settings = {ASSET_TAGS = (); }; };
 		ACFF34501BCF314E00FAF2E1 /* MAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF344F1BCF314E00FAF2E1 /* MAccountInfo.swift */; settings = {ASSET_TAGS = (); }; };
 		ACFF34531BCF3F7B00FAF2E1 /* SQSAIQMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34521BCF3F7B00FAF2E1 /* SQSAIQMModel.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF345D1BCF525300FAF2E1 /* SMTUC_UI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF345C1BCF525300FAF2E1 /* SMTUC_UI.storyboard */; settings = {ASSET_TAGS = (); }; };
 		DE3091AC99EA4532A27B68DA /* Pods_TrcBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B57EBA44B010DE349D77F6 /* Pods_TrcBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,7 @@
 		ACFF344D1BCF30EE00FAF2E1 /* SQSTDQMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQMModel.swift; sourceTree = "<group>"; };
 		ACFF344F1BCF314E00FAF2E1 /* MAccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAccountInfo.swift; sourceTree = "<group>"; };
 		ACFF34521BCF3F7B00FAF2E1 /* SQSAIQMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQMModel.swift; sourceTree = "<group>"; };
+		ACFF345C1BCF525300FAF2E1 /* SMTUC_UI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SMTUC_UI.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 		ACFF34291BCF2AD600FAF2E1 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				ACFF34581BCF524400FAF2E1 /* MobileTopUp */,
 				ACFF342A1BCF2AD600FAF2E1 /* QueryService */,
 			);
 			path = Sections;
@@ -346,6 +349,38 @@
 				ACFF34521BCF3F7B00FAF2E1 /* SQSAIQMModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ACFF34581BCF524400FAF2E1 /* MobileTopUp */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF34591BCF524400FAF2E1 /* CustomUI */,
+				ACFF345A1BCF524400FAF2E1 /* Model */,
+				ACFF345B1BCF524400FAF2E1 /* ViewControllers */,
+			);
+			path = MobileTopUp;
+			sourceTree = "<group>";
+		};
+		ACFF34591BCF524400FAF2E1 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF345C1BCF525300FAF2E1 /* SMTUC_UI.storyboard */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		ACFF345A1BCF524400FAF2E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACFF345B1BCF524400FAF2E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		AF97C0B9D9D59B5AB1A88820 /* Frameworks */ = {
@@ -467,6 +502,7 @@
 				AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */,
 				ACA212D51BCE56A2000B66AA /* GBMenuCell.xib in Resources */,
 				AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */,
+				ACFF345D1BCF525300FAF2E1 /* SMTUC_UI.storyboard in Resources */,
 				ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */,
 				ACFF34441BCF2DD000FAF2E1 /* SQSAIQC_UI.storyboard in Resources */,
 				ACFF34481BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard in Resources */,

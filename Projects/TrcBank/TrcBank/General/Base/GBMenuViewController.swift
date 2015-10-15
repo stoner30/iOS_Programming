@@ -88,8 +88,6 @@ class GBMenuViewController: UICollectionViewController, UICollectionViewDelegate
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
         if !delegate.isLogin {
-            self.navigationItem.title = ""
-            
             let loginVC = GBLoginViewController(nibName: "GBLoginViewController", bundle: NSBundle.mainBundle())
             navigationController?.pushViewController(loginVC, animated: true)
         } else {
@@ -98,6 +96,13 @@ class GBMenuViewController: UICollectionViewController, UICollectionViewDelegate
                 let subMenuViewController = GBSubMenuViewController(nibName: "GBSubMenu", bundle: NSBundle.mainBundle(), subMenus: menu.subMenus!)
                 subMenuViewController.navigationItem.title = menu.name
                 navigationController?.pushViewController(subMenuViewController, animated: true)
+            } else {
+                if let storyboardName = menu.storyboardName {
+                    let storyboard = UIStoryboard(name: storyboardName, bundle: NSBundle.mainBundle())
+                    if let viewController = storyboard.instantiateInitialViewController() {
+                        navigationController?.pushViewController(viewController, animated: true)
+                    }
+                }
             }
         }
     }

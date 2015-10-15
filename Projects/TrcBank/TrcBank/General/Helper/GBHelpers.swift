@@ -36,7 +36,7 @@ class GBMenuHelpers: NSObject {
                 }
                 menus.append(MMenu(image: dicMenu["image"] as! String, name: dicMenu["name"] as! String, subMenus: subMenus))
             } else {
-                menus.append(MMenu(image: dicMenu["image"] as! String, name: dicMenu["name"] as! String))
+                menus.append(MMenu(image: dicMenu["image"] as! String, name: dicMenu["name"] as! String, storyboardName: dicMenu["storyboardName"] as? String))
             }
         }
         return menus
@@ -71,7 +71,7 @@ class GBMenuHelpers: NSObject {
             [ "image": "services_tv", "name": "电视缴费" ],
             [ "image": "services_phone", "name": "固话缴费" ],
             [ "image": "services_no_card", "name": "无卡购电" ],
-            [ "image": "services_mobile", "name": "手机充值" ],
+            [ "image": "services_mobile", "name": "手机充值", "storyboardName": "SMTUC_UI" ],
             [ "image": "services_game", "name": "游戏充值" ],
             [ "image": "services_water", "name": "代缴水费" ],
             [ "image": "services_plane", "name": "机票预订" ],
