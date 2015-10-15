@@ -21,14 +21,18 @@ struct MMenu {
         self.name = name
     }
     
+    init(image: String, name: String, storyboardName: String?) {
+        self.init(image: image, name: name)
+        self.storyboardName = storyboardName
+    }
+    
     init(name: String, storyboardName: String?) {
         self.name = name
         self.storyboardName = storyboardName
     }
     
     init(image: String, name: String, subMenus: [MMenu]) {
-        self.image = image
-        self.name = name
+        self.init(image: image, name: name)
         self.haveSubMenu = true
         self.subMenus = subMenus
     }

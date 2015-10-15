@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TransDetailListTableViewCell: UITableViewCell {
+class SQSTDQVListViewCell: UITableViewCell {
 
     @IBOutlet weak var lblTransDate: UILabel!
     @IBOutlet weak var lblRemark: UILabel!

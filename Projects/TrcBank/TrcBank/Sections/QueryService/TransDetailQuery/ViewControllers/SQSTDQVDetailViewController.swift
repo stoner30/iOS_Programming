@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TransDetailInfoTableViewController: UITableViewController {
+class SQSTDQVDetailViewController: UITableViewController {
 
     @IBOutlet weak var lblTransDate: UILabel!
     @IBOutlet weak var lblTransTime: UILabel!
@@ -19,7 +19,7 @@ class TransDetailInfoTableViewController: UITableViewController {
     @IBOutlet weak var lblCurrency: UILabel!
     @IBOutlet weak var lblRemark: UILabel!
     
-    var item: [String: String]!
+    var model: SQSTDQMModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,15 +27,14 @@ class TransDetailInfoTableViewController: UITableViewController {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.tableFooterView = UIView(frame: CGRectZero)
         
-        lblTransDate.text = item["transDate"]!
-        lblTransTime.text = item["transTime"]!
-        lblType.text = item["type"]!
-        lblBank.text = item["bank"]!
-        lblAccount.text = item["account"]!
-        let transAmt = item["transAmt"]!
-        lblTransAmt.text = "￥\(transAmt)"
-        lblCurrency.text = item["currency"]!
-        lblRemark.text = item["remark"]!
+        lblTransDate.text = model.transDate
+        lblTransTime.text = model.transTime
+        lblType.text = model.transType
+        lblBank.text = model.openDept
+        lblAccount.text = model.accountNo
+        lblTransAmt.text = model.transAmount
+        lblCurrency.text = model.currency
+        lblRemark.text = model.transRemark
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,15 +10,7 @@
 		AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC57459C1BC788910016A137 /* LaunchScreen.storyboard */; };
 		AC5745A91BC788910016A137 /* TrcBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745A81BC788910016A137 /* TrcBankTests.swift */; };
 		AC5745B41BC788910016A137 /* TrcBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5745B31BC788910016A137 /* TrcBankUITests.swift */; };
-		AC7230991BCCA43100556D8F /* Index.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC72308F1BCCA43100556D8F /* Index.storyboard */; settings = {ASSET_TAGS = (); }; };
-		AC72309A1BCCA43100556D8F /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7230901BCCA43100556D8F /* IndexViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		AC72309B1BCCA43100556D8F /* TransDetailPreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7230911BCCA43100556D8F /* TransDetailPreViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		AC72309C1BCCA43100556D8F /* TransDetailQuery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7230921BCCA43100556D8F /* TransDetailQuery.storyboard */; settings = {ASSET_TAGS = (); }; };
 		AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8486481BC8A42900DBD95D /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		AC8C31141BCDF1250088DA80 /* AccountInfoQuery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8C31131BCDF1250088DA80 /* AccountInfoQuery.storyboard */; settings = {ASSET_TAGS = (); }; };
-		AC8C31161BCDF1950088DA80 /* AccountInfoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C31151BCDF1950088DA80 /* AccountInfoListTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		AC8C31181BCDF36E0088DA80 /* AccountInfoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C31171BCDF36E0088DA80 /* AccountInfoListTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		AC8C311A1BCDFC8F0088DA80 /* AccountInfoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C31191BCDFC8F0088DA80 /* AccountInfoDetailTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACA212CE1BCE56A2000B66AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA212C11BCE56A2000B66AA /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		ACA212CF1BCE56A2000B66AA /* GBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA212C41BCE56A2000B66AA /* GBLoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACA212D01BCE56A2000B66AA /* GBMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA212C51BCE56A2000B66AA /* GBMenuCell.swift */; settings = {ASSET_TAGS = (); }; };
@@ -28,12 +20,20 @@
 		ACA212D41BCE56A2000B66AA /* GBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA212CA1BCE56A2000B66AA /* GBLoginViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		ACA212D51BCE56A2000B66AA /* GBMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA212CB1BCE56A2000B66AA /* GBMenuCell.xib */; settings = {ASSET_TAGS = (); }; };
 		ACA212D61BCE56A2000B66AA /* GBHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA212CD1BCE56A2000B66AA /* GBHelpers.swift */; settings = {ASSET_TAGS = (); }; };
-		ACB0BF991BCCB4CD00E3334F /* TransDetailListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0BF981BCCB4CD00E3334F /* TransDetailListTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		ACB0BF9B1BCCB76800E3334F /* TransDetailListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0BF9A1BCCB76800E3334F /* TransDetailListTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		ACB0BF9D1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0BF9C1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE69D271BCE982C002A7369 /* MMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69D261BCE982C002A7369 /* MMenu.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE69D291BCEA84F002A7369 /* GBSubMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */; settings = {ASSET_TAGS = (); }; };
+		ACFF34441BCF2DD000FAF2E1 /* SQSAIQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF34341BCF2DD000FAF2E1 /* SQSAIQ.storyboard */; settings = {ASSET_TAGS = (); }; };
+		ACFF34451BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34361BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF34461BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34371BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF34471BCF2DD000FAF2E1 /* SQSAIQListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34381BCF2DD000FAF2E1 /* SQSAIQListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF34481BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF343D1BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard */; settings = {ASSET_TAGS = (); }; };
+		ACFF34491BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34401BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF344A1BCF2DD000FAF2E1 /* SQSTDQVListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34411BCF2DD000FAF2E1 /* SQSTDQVListViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF344B1BCF2DD000FAF2E1 /* SQSTDQVListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34421BCF2DD000FAF2E1 /* SQSTDQVListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF344C1BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34431BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF344E1BCF30EE00FAF2E1 /* SQSTDQMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF344D1BCF30EE00FAF2E1 /* SQSTDQMModel.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF34501BCF314E00FAF2E1 /* MAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF344F1BCF314E00FAF2E1 /* MAccountInfo.swift */; settings = {ASSET_TAGS = (); }; };
 		DE3091AC99EA4532A27B68DA /* Pods_TrcBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B57EBA44B010DE349D77F6 /* Pods_TrcBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,15 +67,7 @@
 		AC5745AF1BC788910016A137 /* TrcBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrcBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5745B31BC788910016A137 /* TrcBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrcBankUITests.swift; sourceTree = "<group>"; };
 		AC5745B51BC788910016A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC72308F1BCCA43100556D8F /* Index.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Index.storyboard; sourceTree = "<group>"; };
-		AC7230901BCCA43100556D8F /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
-		AC7230911BCCA43100556D8F /* TransDetailPreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransDetailPreViewController.swift; sourceTree = "<group>"; };
-		AC7230921BCCA43100556D8F /* TransDetailQuery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TransDetailQuery.storyboard; sourceTree = "<group>"; };
 		AC8486481BC8A42900DBD95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC8C31131BCDF1250088DA80 /* AccountInfoQuery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AccountInfoQuery.storyboard; sourceTree = "<group>"; };
-		AC8C31151BCDF1950088DA80 /* AccountInfoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoListTableViewController.swift; sourceTree = "<group>"; };
-		AC8C31171BCDF36E0088DA80 /* AccountInfoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoListTableViewCell.swift; sourceTree = "<group>"; };
-		AC8C31191BCDFC8F0088DA80 /* AccountInfoDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoDetailTableViewController.swift; sourceTree = "<group>"; };
 		ACA212C11BCE56A2000B66AA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA212C41BCE56A2000B66AA /* GBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBLoginViewController.swift; sourceTree = "<group>"; };
 		ACA212C51BCE56A2000B66AA /* GBMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBMenuCell.swift; sourceTree = "<group>"; };
@@ -85,12 +77,20 @@
 		ACA212CA1BCE56A2000B66AA /* GBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBLoginViewController.xib; sourceTree = "<group>"; };
 		ACA212CB1BCE56A2000B66AA /* GBMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBMenuCell.xib; sourceTree = "<group>"; };
 		ACA212CD1BCE56A2000B66AA /* GBHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHelpers.swift; sourceTree = "<group>"; };
-		ACB0BF981BCCB4CD00E3334F /* TransDetailListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransDetailListTableViewController.swift; sourceTree = "<group>"; };
-		ACB0BF9A1BCCB76800E3334F /* TransDetailListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransDetailListTableViewCell.swift; sourceTree = "<group>"; };
-		ACB0BF9C1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransDetailInfoTableViewController.swift; sourceTree = "<group>"; };
 		ACE69D261BCE982C002A7369 /* MMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMenu.swift; sourceTree = "<group>"; };
 		ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBSubMenuViewController.swift; sourceTree = "<group>"; };
 		ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBSubMenu.xib; sourceTree = "<group>"; };
+		ACFF34341BCF2DD000FAF2E1 /* SQSAIQ.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SQSAIQ.storyboard; sourceTree = "<group>"; };
+		ACFF34361BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQDetailViewController.swift; sourceTree = "<group>"; };
+		ACFF34371BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQListViewCell.swift; sourceTree = "<group>"; };
+		ACFF34381BCF2DD000FAF2E1 /* SQSAIQListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQListViewController.swift; sourceTree = "<group>"; };
+		ACFF343D1BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SQSTDQC_UI.storyboard; sourceTree = "<group>"; };
+		ACFF34401BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQVDetailViewController.swift; sourceTree = "<group>"; };
+		ACFF34411BCF2DD000FAF2E1 /* SQSTDQVListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQVListViewCell.swift; sourceTree = "<group>"; };
+		ACFF34421BCF2DD000FAF2E1 /* SQSTDQVListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQVListViewController.swift; sourceTree = "<group>"; };
+		ACFF34431BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQVPreViewController.swift; sourceTree = "<group>"; };
+		ACFF344D1BCF30EE00FAF2E1 /* SQSTDQMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQMModel.swift; sourceTree = "<group>"; };
+		ACFF344F1BCF314E00FAF2E1 /* MAccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAccountInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +153,10 @@
 		AC5745901BC788910016A137 /* TrcBank */ = {
 			isa = PBXGroup;
 			children = (
+				ACFF34291BCF2AD600FAF2E1 /* Sections */,
 				ACE69D251BCE97F0002A7369 /* Model */,
 				ACA212C01BCE56A2000B66AA /* Core */,
 				ACA212C21BCE56A2000B66AA /* General */,
-				AC72308C1BCCA43100556D8F /* Bisiness */,
 				AC8486481BC8A42900DBD95D /* Assets.xcassets */,
 				AC57459C1BC788910016A137 /* LaunchScreen.storyboard */,
 				AC57459F1BC788910016A137 /* Info.plist */,
@@ -180,40 +180,6 @@
 				AC5745B51BC788910016A137 /* Info.plist */,
 			);
 			path = TrcBankUITests;
-			sourceTree = "<group>";
-		};
-		AC72308C1BCCA43100556D8F /* Bisiness */ = {
-			isa = PBXGroup;
-			children = (
-				AC72308D1BCCA43100556D8F /* Bank */,
-			);
-			path = Bisiness;
-			sourceTree = "<group>";
-		};
-		AC72308D1BCCA43100556D8F /* Bank */ = {
-			isa = PBXGroup;
-			children = (
-				AC72308E1BCCA43100556D8F /* Query */,
-			);
-			path = Bank;
-			sourceTree = "<group>";
-		};
-		AC72308E1BCCA43100556D8F /* Query */ = {
-			isa = PBXGroup;
-			children = (
-				AC72308F1BCCA43100556D8F /* Index.storyboard */,
-				AC7230901BCCA43100556D8F /* IndexViewController.swift */,
-				AC7230911BCCA43100556D8F /* TransDetailPreViewController.swift */,
-				ACB0BF981BCCB4CD00E3334F /* TransDetailListTableViewController.swift */,
-				ACB0BF9A1BCCB76800E3334F /* TransDetailListTableViewCell.swift */,
-				ACB0BF9C1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift */,
-				AC7230921BCCA43100556D8F /* TransDetailQuery.storyboard */,
-				AC8C31151BCDF1950088DA80 /* AccountInfoListTableViewController.swift */,
-				AC8C31171BCDF36E0088DA80 /* AccountInfoListTableViewCell.swift */,
-				AC8C31191BCDFC8F0088DA80 /* AccountInfoDetailTableViewController.swift */,
-				AC8C31131BCDF1250088DA80 /* AccountInfoQuery.storyboard */,
-			);
-			path = Query;
 			sourceTree = "<group>";
 		};
 		ACA212C01BCE56A2000B66AA /* Core */ = {
@@ -269,8 +235,106 @@
 			isa = PBXGroup;
 			children = (
 				ACE69D261BCE982C002A7369 /* MMenu.swift */,
+				ACFF344F1BCF314E00FAF2E1 /* MAccountInfo.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ACFF34291BCF2AD600FAF2E1 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF342A1BCF2AD600FAF2E1 /* QueryService */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		ACFF342A1BCF2AD600FAF2E1 /* QueryService */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF34321BCF2DD000FAF2E1 /* AccountInfoQuery */,
+				ACFF34391BCF2DD000FAF2E1 /* CrossBankAccountInfoQuery */,
+				ACFF343A1BCF2DD000FAF2E1 /* MobileLogQuery */,
+				ACFF343B1BCF2DD000FAF2E1 /* TransDetailQuery */,
+			);
+			path = QueryService;
+			sourceTree = "<group>";
+		};
+		ACFF34321BCF2DD000FAF2E1 /* AccountInfoQuery */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF34331BCF2DD000FAF2E1 /* CustomUI */,
+				ACFF34351BCF2DD000FAF2E1 /* ViewControllers */,
+			);
+			path = AccountInfoQuery;
+			sourceTree = "<group>";
+		};
+		ACFF34331BCF2DD000FAF2E1 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF34341BCF2DD000FAF2E1 /* SQSAIQ.storyboard */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		ACFF34351BCF2DD000FAF2E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF34361BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift */,
+				ACFF34371BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift */,
+				ACFF34381BCF2DD000FAF2E1 /* SQSAIQListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ACFF34391BCF2DD000FAF2E1 /* CrossBankAccountInfoQuery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CrossBankAccountInfoQuery;
+			sourceTree = "<group>";
+		};
+		ACFF343A1BCF2DD000FAF2E1 /* MobileLogQuery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MobileLogQuery;
+			sourceTree = "<group>";
+		};
+		ACFF343B1BCF2DD000FAF2E1 /* TransDetailQuery */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF343C1BCF2DD000FAF2E1 /* CustomUI */,
+				ACFF343E1BCF2DD000FAF2E1 /* Model */,
+				ACFF343F1BCF2DD000FAF2E1 /* ViewControllers */,
+			);
+			path = TransDetailQuery;
+			sourceTree = "<group>";
+		};
+		ACFF343C1BCF2DD000FAF2E1 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF343D1BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		ACFF343E1BCF2DD000FAF2E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF344D1BCF30EE00FAF2E1 /* SQSTDQMModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACFF343F1BCF2DD000FAF2E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF34401BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift */,
+				ACFF34411BCF2DD000FAF2E1 /* SQSTDQVListViewCell.swift */,
+				ACFF34421BCF2DD000FAF2E1 /* SQSTDQVListViewController.swift */,
+				ACFF34431BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		AF97C0B9D9D59B5AB1A88820 /* Frameworks */ = {
@@ -390,12 +454,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC57459E1BC788910016A137 /* LaunchScreen.storyboard in Resources */,
-				AC72309C1BCCA43100556D8F /* TransDetailQuery.storyboard in Resources */,
 				ACA212D51BCE56A2000B66AA /* GBMenuCell.xib in Resources */,
-				AC8C31141BCDF1250088DA80 /* AccountInfoQuery.storyboard in Resources */,
 				AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */,
-				AC7230991BCCA43100556D8F /* Index.storyboard in Resources */,
 				ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */,
+				ACFF34441BCF2DD000FAF2E1 /* SQSAIQ.storyboard in Resources */,
+				ACFF34481BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard in Resources */,
 				ACA212D41BCE56A2000B66AA /* GBLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,23 +532,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8C31181BCDF36E0088DA80 /* AccountInfoListTableViewCell.swift in Sources */,
 				ACA212D21BCE56A2000B66AA /* GBMenuViewController.swift in Sources */,
 				ACA212D31BCE56A2000B66AA /* GBNavigationController.swift in Sources */,
+				ACFF34471BCF2DD000FAF2E1 /* SQSAIQListViewController.swift in Sources */,
+				ACFF344B1BCF2DD000FAF2E1 /* SQSTDQVListViewController.swift in Sources */,
+				ACFF34491BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift in Sources */,
 				ACA212D11BCE56A2000B66AA /* GBMenuLayout.swift in Sources */,
 				ACA212CF1BCE56A2000B66AA /* GBLoginViewController.swift in Sources */,
-				ACB0BF991BCCB4CD00E3334F /* TransDetailListTableViewController.swift in Sources */,
-				AC72309B1BCCA43100556D8F /* TransDetailPreViewController.swift in Sources */,
 				ACA212D01BCE56A2000B66AA /* GBMenuCell.swift in Sources */,
 				ACE69D271BCE982C002A7369 /* MMenu.swift in Sources */,
+				ACFF34461BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift in Sources */,
+				ACFF34451BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift in Sources */,
 				ACE69D291BCEA84F002A7369 /* GBSubMenuViewController.swift in Sources */,
 				ACA212CE1BCE56A2000B66AA /* AppDelegate.swift in Sources */,
-				AC72309A1BCCA43100556D8F /* IndexViewController.swift in Sources */,
-				ACB0BF9D1BCCDCBE00E3334F /* TransDetailInfoTableViewController.swift in Sources */,
+				ACFF34501BCF314E00FAF2E1 /* MAccountInfo.swift in Sources */,
+				ACFF344A1BCF2DD000FAF2E1 /* SQSTDQVListViewCell.swift in Sources */,
+				ACFF344C1BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift in Sources */,
+				ACFF344E1BCF30EE00FAF2E1 /* SQSTDQMModel.swift in Sources */,
 				ACA212D61BCE56A2000B66AA /* GBHelpers.swift in Sources */,
-				AC8C31161BCDF1950088DA80 /* AccountInfoListTableViewController.swift in Sources */,
-				AC8C311A1BCDFC8F0088DA80 /* AccountInfoDetailTableViewController.swift in Sources */,
-				ACB0BF9B1BCCB76800E3334F /* TransDetailListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

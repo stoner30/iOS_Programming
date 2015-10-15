@@ -42,7 +42,7 @@ class GBSubMenuViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier, forIndexPath: indexPath)
         cell.textLabel?.text = subMenus[indexPath.row].name
-        cell.textLabel?.textColor = UIColor.grayColor()
+        cell.textLabel?.textColor = UIColor.darkGrayColor()
         cell.accessoryType = .DisclosureIndicator
         return cell
     }

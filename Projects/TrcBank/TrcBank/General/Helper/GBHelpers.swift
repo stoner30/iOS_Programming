@@ -47,8 +47,8 @@ class GBMenuHelpers: NSObject {
             [
                 "image": "bank_query", "name": "查询服务",
                 "subMenus": [
-                    [ "name": "交易明细查询", "storyboardName": "TransDetailQuery" ],
-                    [ "name": "账户信息查询", "storyboardName": "AccountInfoQuery" ],
+                    [ "name": "交易明细查询", "storyboardName": "SQSTDQC_UI" ],
+                    [ "name": "账户信息查询", "storyboardName": "SQSAIQ" ],
                     [ "name": "跨行账户信息查询" ],
                     [ "name": "手机日志查询" ]
                 ]
@@ -109,6 +109,17 @@ class GBMenuHelpers: NSObject {
             [ "image": "info_site", "name": "农商官网" ]
         ]
         return getMenus(dicMenus)
+    }
+    
+}
+
+class GBAccountInfoHelpers {
+    
+    static func getAccountInfos() -> [MAccountInfo] {
+        return [
+            MAccountInfo(accountNo: "6223299901201509396", currency: "人民币", currencyFlag: "钞"),
+            MAccountInfo(accountNo: "6223010039569984190", currency: "美元", currencyFlag: "汇")
+        ]
     }
     
 }

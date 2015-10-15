@@ -9,7 +9,7 @@
 import UIKit
 import ActionSheetPicker_3_0
 
-class TransDetailPreViewController: UITableViewController, UITextFieldDelegate {
+class SQSTDQVPreViewController: UITableViewController, UITextFieldDelegate {
     
     @IBOutlet weak var txtAccount: UITextField!
     @IBOutlet weak var btnAccountSelect: UIButton!
@@ -36,26 +36,24 @@ class TransDetailPreViewController: UITableViewController, UITextFieldDelegate {
     }
     
     @IBAction func pressOnBtnAccountSelect(sender: AnyObject) {
-        let items = [
-            [ "no": "6223299901201509396", "currency": "人民币", "type": "钞" ],
-            [ "no": "6223010039569984190", "currency": "美元", "type": "汇" ]
-        ]
+        let accountInfos = GBAccountInfoHelpers.getAccountInfos()
         
-        let rows = [ items[0]["no"]!, items[1]["no"]! ]
+        let pickerRows = accountInfos.map({
+            accountInfo in
+            return accountInfo.accountNo
+        })
         
-        let picker = ActionSheetStringPicker(title: "请选择账号", rows: rows, initialSelection: 0, doneBlock: {
+        let picker = ActionSheetStringPicker(title: "请选择账号", rows: pickerRows, initialSelection: 0, doneBlock: {
             picker, index, value in
             
-            let row = items[index]
+            let accountInfo = accountInfos[index]
             
-            self.txtAccount.text = row["no"]
-            let currency = row["currency"]!
-            self.lblCurrency.text = "币种：\(currency)"
-            let type = row["type"]!
-            self.lblType.text = "钞汇类型：\(type)"
+            self.txtAccount.text = accountInfo.accountNo
+            self.lblCurrency.text = "币种：\(accountInfo.currency)"
+            self.lblType.text = "钞汇类型：\(accountInfo.currencyFlag)"
         }, cancelBlock: {
             picker in return
-        }, origin: sender)
+        }, origin: self.view.superview!.superview)
         
         picker.setDoneButton(UIBarButtonItem(title: "完成", style: .Plain, target: nil, action: nil))
         picker.setCancelButton(UIBarButtonItem(title: "取消", style: .Plain, target: nil, action: nil))
@@ -66,7 +64,6 @@ class TransDetailPreViewController: UITableViewController, UITextFieldDelegate {
     func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
         let title = textField == txtStartDate ? "请选择起始日期" : "请选择截止日期"
         let selectedDate = textField == txtStartDate ? NSDate(timeIntervalSinceNow: -60 * 60 * 24 * 2) : NSDate()
-        
         
         let formatter = NSDateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
@@ -86,10 +83,6 @@ class TransDetailPreViewController: UITableViewController, UITextFieldDelegate {
         picker.showActionSheetPicker()
         
         return false
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        self.navigationItem.title = ""
     }
 
 }
