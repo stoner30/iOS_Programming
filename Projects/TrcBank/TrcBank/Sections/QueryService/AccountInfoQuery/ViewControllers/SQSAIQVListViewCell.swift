@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AccountInfoListTableViewCell: UITableViewCell {
+class SQSAIQVListViewCell: UITableViewCell {
 
     @IBOutlet weak var lblAccountType: UILabel!
     @IBOutlet weak var lblAccountNo: UILabel!

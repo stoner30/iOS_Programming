@@ -23,10 +23,10 @@
 		ACE69D271BCE982C002A7369 /* MMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69D261BCE982C002A7369 /* MMenu.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE69D291BCEA84F002A7369 /* GBSubMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */; settings = {ASSET_TAGS = (); }; };
-		ACFF34441BCF2DD000FAF2E1 /* SQSAIQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF34341BCF2DD000FAF2E1 /* SQSAIQ.storyboard */; settings = {ASSET_TAGS = (); }; };
-		ACFF34451BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34361BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		ACFF34461BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34371BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		ACFF34471BCF2DD000FAF2E1 /* SQSAIQListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34381BCF2DD000FAF2E1 /* SQSAIQListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF34441BCF2DD000FAF2E1 /* SQSAIQC_UI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF34341BCF2DD000FAF2E1 /* SQSAIQC_UI.storyboard */; settings = {ASSET_TAGS = (); }; };
+		ACFF34451BCF2DD000FAF2E1 /* SQSAIQVDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34361BCF2DD000FAF2E1 /* SQSAIQVDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF34461BCF2DD000FAF2E1 /* SQSAIQVListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34371BCF2DD000FAF2E1 /* SQSAIQVListViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF34471BCF2DD000FAF2E1 /* SQSAIQVListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34381BCF2DD000FAF2E1 /* SQSAIQVListViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACFF34481BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF343D1BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard */; settings = {ASSET_TAGS = (); }; };
 		ACFF34491BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34401BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACFF344A1BCF2DD000FAF2E1 /* SQSTDQVListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34411BCF2DD000FAF2E1 /* SQSTDQVListViewCell.swift */; settings = {ASSET_TAGS = (); }; };
@@ -34,6 +34,7 @@
 		ACFF344C1BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34431BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACFF344E1BCF30EE00FAF2E1 /* SQSTDQMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF344D1BCF30EE00FAF2E1 /* SQSTDQMModel.swift */; settings = {ASSET_TAGS = (); }; };
 		ACFF34501BCF314E00FAF2E1 /* MAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF344F1BCF314E00FAF2E1 /* MAccountInfo.swift */; settings = {ASSET_TAGS = (); }; };
+		ACFF34531BCF3F7B00FAF2E1 /* SQSAIQMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF34521BCF3F7B00FAF2E1 /* SQSAIQMModel.swift */; settings = {ASSET_TAGS = (); }; };
 		DE3091AC99EA4532A27B68DA /* Pods_TrcBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B57EBA44B010DE349D77F6 /* Pods_TrcBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,10 +81,10 @@
 		ACE69D261BCE982C002A7369 /* MMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMenu.swift; sourceTree = "<group>"; };
 		ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBSubMenuViewController.swift; sourceTree = "<group>"; };
 		ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBSubMenu.xib; sourceTree = "<group>"; };
-		ACFF34341BCF2DD000FAF2E1 /* SQSAIQ.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SQSAIQ.storyboard; sourceTree = "<group>"; };
-		ACFF34361BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQDetailViewController.swift; sourceTree = "<group>"; };
-		ACFF34371BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQListViewCell.swift; sourceTree = "<group>"; };
-		ACFF34381BCF2DD000FAF2E1 /* SQSAIQListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQListViewController.swift; sourceTree = "<group>"; };
+		ACFF34341BCF2DD000FAF2E1 /* SQSAIQC_UI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SQSAIQC_UI.storyboard; sourceTree = "<group>"; };
+		ACFF34361BCF2DD000FAF2E1 /* SQSAIQVDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQVDetailViewController.swift; sourceTree = "<group>"; };
+		ACFF34371BCF2DD000FAF2E1 /* SQSAIQVListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQVListViewCell.swift; sourceTree = "<group>"; };
+		ACFF34381BCF2DD000FAF2E1 /* SQSAIQVListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQVListViewController.swift; sourceTree = "<group>"; };
 		ACFF343D1BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SQSTDQC_UI.storyboard; sourceTree = "<group>"; };
 		ACFF34401BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQVDetailViewController.swift; sourceTree = "<group>"; };
 		ACFF34411BCF2DD000FAF2E1 /* SQSTDQVListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQVListViewCell.swift; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 		ACFF34431BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQVPreViewController.swift; sourceTree = "<group>"; };
 		ACFF344D1BCF30EE00FAF2E1 /* SQSTDQMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSTDQMModel.swift; sourceTree = "<group>"; };
 		ACFF344F1BCF314E00FAF2E1 /* MAccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAccountInfo.swift; sourceTree = "<group>"; };
+		ACFF34521BCF3F7B00FAF2E1 /* SQSAIQMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQSAIQMModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				ACFF34331BCF2DD000FAF2E1 /* CustomUI */,
+				ACFF34511BCF3F4500FAF2E1 /* Model */,
 				ACFF34351BCF2DD000FAF2E1 /* ViewControllers */,
 			);
 			path = AccountInfoQuery;
@@ -271,7 +274,7 @@
 		ACFF34331BCF2DD000FAF2E1 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
-				ACFF34341BCF2DD000FAF2E1 /* SQSAIQ.storyboard */,
+				ACFF34341BCF2DD000FAF2E1 /* SQSAIQC_UI.storyboard */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -279,9 +282,9 @@
 		ACFF34351BCF2DD000FAF2E1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				ACFF34361BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift */,
-				ACFF34371BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift */,
-				ACFF34381BCF2DD000FAF2E1 /* SQSAIQListViewController.swift */,
+				ACFF34361BCF2DD000FAF2E1 /* SQSAIQVDetailViewController.swift */,
+				ACFF34371BCF2DD000FAF2E1 /* SQSAIQVListViewCell.swift */,
+				ACFF34381BCF2DD000FAF2E1 /* SQSAIQVListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -335,6 +338,14 @@
 				ACFF34431BCF2DD000FAF2E1 /* SQSTDQVPreViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ACFF34511BCF3F4500FAF2E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF34521BCF3F7B00FAF2E1 /* SQSAIQMModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AF97C0B9D9D59B5AB1A88820 /* Frameworks */ = {
@@ -457,7 +468,7 @@
 				ACA212D51BCE56A2000B66AA /* GBMenuCell.xib in Resources */,
 				AC8486491BC8A42900DBD95D /* Assets.xcassets in Resources */,
 				ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */,
-				ACFF34441BCF2DD000FAF2E1 /* SQSAIQ.storyboard in Resources */,
+				ACFF34441BCF2DD000FAF2E1 /* SQSAIQC_UI.storyboard in Resources */,
 				ACFF34481BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard in Resources */,
 				ACA212D41BCE56A2000B66AA /* GBLoginViewController.xib in Resources */,
 			);
@@ -534,15 +545,16 @@
 			files = (
 				ACA212D21BCE56A2000B66AA /* GBMenuViewController.swift in Sources */,
 				ACA212D31BCE56A2000B66AA /* GBNavigationController.swift in Sources */,
-				ACFF34471BCF2DD000FAF2E1 /* SQSAIQListViewController.swift in Sources */,
+				ACFF34471BCF2DD000FAF2E1 /* SQSAIQVListViewController.swift in Sources */,
+				ACFF34531BCF3F7B00FAF2E1 /* SQSAIQMModel.swift in Sources */,
 				ACFF344B1BCF2DD000FAF2E1 /* SQSTDQVListViewController.swift in Sources */,
 				ACFF34491BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift in Sources */,
 				ACA212D11BCE56A2000B66AA /* GBMenuLayout.swift in Sources */,
 				ACA212CF1BCE56A2000B66AA /* GBLoginViewController.swift in Sources */,
 				ACA212D01BCE56A2000B66AA /* GBMenuCell.swift in Sources */,
 				ACE69D271BCE982C002A7369 /* MMenu.swift in Sources */,
-				ACFF34461BCF2DD000FAF2E1 /* SQSAIQListViewCell.swift in Sources */,
-				ACFF34451BCF2DD000FAF2E1 /* SQSAIQDetailViewController.swift in Sources */,
+				ACFF34461BCF2DD000FAF2E1 /* SQSAIQVListViewCell.swift in Sources */,
+				ACFF34451BCF2DD000FAF2E1 /* SQSAIQVDetailViewController.swift in Sources */,
 				ACE69D291BCEA84F002A7369 /* GBSubMenuViewController.swift in Sources */,
 				ACA212CE1BCE56A2000B66AA /* AppDelegate.swift in Sources */,
 				ACFF34501BCF314E00FAF2E1 /* MAccountInfo.swift in Sources */,

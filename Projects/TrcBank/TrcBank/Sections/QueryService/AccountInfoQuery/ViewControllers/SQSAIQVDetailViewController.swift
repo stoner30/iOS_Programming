@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AccountInfoDetailTableViewController: UITableViewController {
+class SQSAIQVDetailViewController: UITableViewController {
 
     @IBOutlet weak var lblAccountType: UILabel!
     @IBOutlet weak var lblAccountNo: UILabel!
@@ -20,22 +20,20 @@ class AccountInfoDetailTableViewController: UITableViewController {
     @IBOutlet weak var lblType: UILabel!
     @IBOutlet weak var lblAccountStatus: UILabel!
     
-    var item: [String: String]!
+    var model: SQSAIQMModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        lblAccountType.text = item["accountType"]!
-        lblAccountNo.text = item["accountNo"]!
-        lblBank.text = item["bank"]!
-        lblOpenDate.text = item["openDate"]!
-        lblCurrency.text = item["currency"]!
-        let balance = item["balance"]!
-        lblBalance.text = "￥\(balance)"
-        let enabledBalance = item["enabledBalance"]!
-        lblEnabledBalance.text = "￥\(enabledBalance)"
-        lblType.text = item["type"]!
-        lblAccountStatus.text = item["accountStatus"]!
+        lblAccountType.text = model.accountType
+        lblAccountNo.text = model.accountNo
+        lblBank.text = model.openDept
+        lblOpenDate.text = model.openDate
+        lblCurrency.text = model.currency
+        lblBalance.text = model.balance
+        lblEnabledBalance.text = model.enabledBalance
+        lblType.text = model.currencyFlag
+        lblAccountStatus.text = model.accountStatus
     }
 
     override func didReceiveMemoryWarning() {

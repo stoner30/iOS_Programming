@@ -48,7 +48,7 @@ class GBMenuHelpers: NSObject {
                 "image": "bank_query", "name": "查询服务",
                 "subMenus": [
                     [ "name": "交易明细查询", "storyboardName": "SQSTDQC_UI" ],
-                    [ "name": "账户信息查询", "storyboardName": "SQSAIQ" ],
+                    [ "name": "账户信息查询", "storyboardName": "SQSAIQC_UI" ],
                     [ "name": "跨行账户信息查询" ],
                     [ "name": "手机日志查询" ]
                 ]
