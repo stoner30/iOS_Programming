@@ -117,8 +117,8 @@ class GBAccountInfoHelpers {
     
     static func getAccountInfos() -> [MAccountInfo] {
         return [
-            MAccountInfo(accountNo: "6223299901201509396", currency: "人民币", currencyFlag: "钞"),
-            MAccountInfo(accountNo: "6223010039569984190", currency: "美元", currencyFlag: "汇")
+            MAccountInfo(accountNo: "6223299901201509396", currency: "人民币", currencyFlag: "钞", accountName: "王大锤", accountAlias: "借记卡", balance: "19917.60"),
+            MAccountInfo(accountNo: "6223010039569984190", currency: "美元", currencyFlag: "汇", accountName: "王大锤", accountAlias: "信用卡", balance: "-21031.59")
         ]
     }
     

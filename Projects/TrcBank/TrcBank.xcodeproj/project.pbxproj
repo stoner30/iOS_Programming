@@ -20,6 +20,10 @@
 		ACA212D41BCE56A2000B66AA /* GBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA212CA1BCE56A2000B66AA /* GBLoginViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		ACA212D51BCE56A2000B66AA /* GBMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA212CB1BCE56A2000B66AA /* GBMenuCell.xib */; settings = {ASSET_TAGS = (); }; };
 		ACA212D61BCE56A2000B66AA /* GBHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA212CD1BCE56A2000B66AA /* GBHelpers.swift */; settings = {ASSET_TAGS = (); }; };
+		ACA76F371BD0D03D00B9D7A9 /* GBAccountInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA76F361BD0D03D00B9D7A9 /* GBAccountInfoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		ACA76F391BD0D28700B9D7A9 /* GBAccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA76F381BD0D28700B9D7A9 /* GBAccountInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACA76F3B1BD0D80400B9D7A9 /* SMTUVPreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA76F3A1BD0D80400B9D7A9 /* SMTUVPreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ACA76F3D1BD0EC0700B9D7A9 /* SMTUMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA76F3C1BD0EC0700B9D7A9 /* SMTUMModel.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE69D271BCE982C002A7369 /* MMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69D261BCE982C002A7369 /* MMenu.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE69D291BCEA84F002A7369 /* GBSubMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */; settings = {ASSET_TAGS = (); }; };
@@ -79,6 +83,10 @@
 		ACA212CA1BCE56A2000B66AA /* GBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBLoginViewController.xib; sourceTree = "<group>"; };
 		ACA212CB1BCE56A2000B66AA /* GBMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBMenuCell.xib; sourceTree = "<group>"; };
 		ACA212CD1BCE56A2000B66AA /* GBHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHelpers.swift; sourceTree = "<group>"; };
+		ACA76F361BD0D03D00B9D7A9 /* GBAccountInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBAccountInfoViewController.xib; sourceTree = "<group>"; };
+		ACA76F381BD0D28700B9D7A9 /* GBAccountInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBAccountInfoViewController.swift; sourceTree = "<group>"; };
+		ACA76F3A1BD0D80400B9D7A9 /* SMTUVPreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTUVPreViewController.swift; sourceTree = "<group>"; };
+		ACA76F3C1BD0EC0700B9D7A9 /* SMTUMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTUMModel.swift; sourceTree = "<group>"; };
 		ACE69D261BCE982C002A7369 /* MMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMenu.swift; sourceTree = "<group>"; };
 		ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBSubMenuViewController.swift; sourceTree = "<group>"; };
 		ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBSubMenu.xib; sourceTree = "<group>"; };
@@ -213,6 +221,7 @@
 				ACA212C71BCE56A2000B66AA /* GBMenuViewController.swift */,
 				ACE69D281BCEA84F002A7369 /* GBSubMenuViewController.swift */,
 				ACA212C81BCE56A2000B66AA /* GBNavigationController.swift */,
+				ACA76F381BD0D28700B9D7A9 /* GBAccountInfoViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -223,6 +232,7 @@
 				ACA212CA1BCE56A2000B66AA /* GBLoginViewController.xib */,
 				ACA212CB1BCE56A2000B66AA /* GBMenuCell.xib */,
 				ACE69D2A1BCEAB7D002A7369 /* GBSubMenu.xib */,
+				ACA76F361BD0D03D00B9D7A9 /* GBAccountInfoViewController.xib */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -372,6 +382,7 @@
 		ACFF345A1BCF524400FAF2E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ACA76F3C1BD0EC0700B9D7A9 /* SMTUMModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -379,6 +390,7 @@
 		ACFF345B1BCF524400FAF2E1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				ACA76F3A1BD0D80400B9D7A9 /* SMTUVPreViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -505,6 +517,7 @@
 				ACFF345D1BCF525300FAF2E1 /* SMTUC_UI.storyboard in Resources */,
 				ACE69D2B1BCEAB7D002A7369 /* GBSubMenu.xib in Resources */,
 				ACFF34441BCF2DD000FAF2E1 /* SQSAIQC_UI.storyboard in Resources */,
+				ACA76F371BD0D03D00B9D7A9 /* GBAccountInfoViewController.xib in Resources */,
 				ACFF34481BCF2DD000FAF2E1 /* SQSTDQC_UI.storyboard in Resources */,
 				ACA212D41BCE56A2000B66AA /* GBLoginViewController.xib in Resources */,
 			);
@@ -582,9 +595,12 @@
 				ACA212D21BCE56A2000B66AA /* GBMenuViewController.swift in Sources */,
 				ACA212D31BCE56A2000B66AA /* GBNavigationController.swift in Sources */,
 				ACFF34471BCF2DD000FAF2E1 /* SQSAIQVListViewController.swift in Sources */,
+				ACA76F391BD0D28700B9D7A9 /* GBAccountInfoViewController.swift in Sources */,
 				ACFF34531BCF3F7B00FAF2E1 /* SQSAIQMModel.swift in Sources */,
 				ACFF344B1BCF2DD000FAF2E1 /* SQSTDQVListViewController.swift in Sources */,
+				ACA76F3D1BD0EC0700B9D7A9 /* SMTUMModel.swift in Sources */,
 				ACFF34491BCF2DD000FAF2E1 /* SQSTDQVDetailViewController.swift in Sources */,
+				ACA76F3B1BD0D80400B9D7A9 /* SMTUVPreViewController.swift in Sources */,
 				ACA212D11BCE56A2000B66AA /* GBMenuLayout.swift in Sources */,
 				ACA212CF1BCE56A2000B66AA /* GBLoginViewController.swift in Sources */,
 				ACA212D01BCE56A2000B66AA /* GBMenuCell.swift in Sources */,
