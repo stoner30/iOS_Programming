@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0F721F1BDDF696008A99DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0F721E1BDDF696008A99DA /* Assets.xcassets */; };
+		AC0F72221BDDF696008A99DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0F72201BDDF696008A99DA /* LaunchScreen.storyboard */; };
+		ACCB20041BE069EC00C58C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB1FE91BE069EC00C58C4A /* AppDelegate.swift */; };
+		ACCB20051BE069EC00C58C4A /* HCMEventKitUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB1FEE1BE069EC00C58C4A /* HCMEventKitUtil.swift */; };
+		ACCB20061BE069EC00C58C4A /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCB1FF21BE069EC00C58C4A /* Contacts.storyboard */; };
+		ACCB20071BE069EC00C58C4A /* HCMMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB1FF91BE069EC00C58C4A /* HCMMessageViewController.swift */; };
+		ACCB20081BE069EC00C58C4A /* Messages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCB1FFA1BE069EC00C58C4A /* Messages.storyboard */; };
+		ACCB20091BE069EC00C58C4A /* HCMCalendarMgmtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB20011BE069EC00C58C4A /* HCMCalendarMgmtViewController.swift */; };
+		ACCB200A1BE069EC00C58C4A /* HCMCalendarEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB20021BE069EC00C58C4A /* HCMCalendarEditViewController.swift */; };
+		ACCB200B1BE069EC00C58C4A /* Working.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCB20031BE069EC00C58C4A /* Working.storyboard */; };
+		ACCB200D1BE06AD100C58C4A /* HCMCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB200C1BE06AD100C58C4A /* HCMCalendarViewController.swift */; };
+		ACCB200F1BE06BA500C58C4A /* HCMDateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB200E1BE06BA500C58C4A /* HCMDateUtil.swift */; };
+		ACCB20111BE06F4B00C58C4A /* HCMAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB20101BE06F4B00C58C4A /* HCMAlertViewController.swift */; };
+		ACCB20131BE0753100C58C4A /* HCMTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB20121BE0753100C58C4A /* HCMTransactionViewController.swift */; };
+		ACCB20161BE0A37200C58C4A /* HCMValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB20151BE0A37200C58C4A /* HCMValidationUtil.swift */; };
+		C1F850777399E2626D937C90 /* Pods_HCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BDE173847796F7B26997E9 /* Pods_HCM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29805A471502A4C6B2A79A0C /* Pods-HCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCM.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCM/Pods-HCM.release.xcconfig"; sourceTree = "<group>"; };
+		68BDE173847796F7B26997E9 /* Pods_HCM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A4AD264C88D3E3E981409B /* Pods-HCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCM/Pods-HCM.debug.xcconfig"; sourceTree = "<group>"; };
+		AC0F72141BDDF696008A99DA /* HCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0F721E1BDDF696008A99DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0F72211BDDF696008A99DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0F72231BDDF696008A99DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCB1FE91BE069EC00C58C4A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACCB1FEE1BE069EC00C58C4A /* HCMEventKitUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMEventKitUtil.swift; sourceTree = "<group>"; };
+		ACCB1FF21BE069EC00C58C4A /* Contacts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		ACCB1FF91BE069EC00C58C4A /* HCMMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMMessageViewController.swift; sourceTree = "<group>"; };
+		ACCB1FFA1BE069EC00C58C4A /* Messages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Messages.storyboard; sourceTree = "<group>"; };
+		ACCB20011BE069EC00C58C4A /* HCMCalendarMgmtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMCalendarMgmtViewController.swift; sourceTree = "<group>"; };
+		ACCB20021BE069EC00C58C4A /* HCMCalendarEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMCalendarEditViewController.swift; sourceTree = "<group>"; };
+		ACCB20031BE069EC00C58C4A /* Working.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Working.storyboard; sourceTree = "<group>"; };
+		ACCB200C1BE06AD100C58C4A /* HCMCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMCalendarViewController.swift; sourceTree = "<group>"; };
+		ACCB200E1BE06BA500C58C4A /* HCMDateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMDateUtil.swift; sourceTree = "<group>"; };
+		ACCB20101BE06F4B00C58C4A /* HCMAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMAlertViewController.swift; sourceTree = "<group>"; };
+		ACCB20121BE0753100C58C4A /* HCMTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMTransactionViewController.swift; sourceTree = "<group>"; };
+		ACCB20151BE0A37200C58C4A /* HCMValidationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCMValidationUtil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0F72111BDDF696008A99DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F850777399E2626D937C90 /* Pods_HCM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0F720B1BDDF696008A99DA = {
+			isa = PBXGroup;
+			children = (
+				AC0F72161BDDF696008A99DA /* HCM */,
+				AC0F72151BDDF696008A99DA /* Products */,
+				CD29CD192D31B3B83E4E58A9 /* Pods */,
+				E85B9FDE708D37B93D12985A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0F72151BDDF696008A99DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0F72141BDDF696008A99DA /* HCM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0F72161BDDF696008A99DA /* HCM */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FE81BE069EC00C58C4A /* Core */,
+				ACCB1FEA1BE069EC00C58C4A /* General */,
+				ACCB1FEF1BE069EC00C58C4A /* Model */,
+				ACCB1FF01BE069EC00C58C4A /* Sections */,
+				AC0F721E1BDDF696008A99DA /* Assets.xcassets */,
+				AC0F72201BDDF696008A99DA /* LaunchScreen.storyboard */,
+				AC0F72231BDDF696008A99DA /* Info.plist */,
+			);
+			path = HCM;
+			sourceTree = "<group>";
+		};
+		ACCB1FE81BE069EC00C58C4A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FE91BE069EC00C58C4A /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ACCB1FEA1BE069EC00C58C4A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FEB1BE069EC00C58C4A /* Base */,
+				ACCB1FEC1BE069EC00C58C4A /* CustomUI */,
+				ACCB1FED1BE069EC00C58C4A /* Helper */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		ACCB1FEB1BE069EC00C58C4A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		ACCB1FEC1BE069EC00C58C4A /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		ACCB1FED1BE069EC00C58C4A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FEE1BE069EC00C58C4A /* HCMEventKitUtil.swift */,
+				ACCB200E1BE06BA500C58C4A /* HCMDateUtil.swift */,
+				ACCB20151BE0A37200C58C4A /* HCMValidationUtil.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ACCB1FEF1BE069EC00C58C4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACCB1FF01BE069EC00C58C4A /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FF11BE069EC00C58C4A /* Contacts */,
+				ACCB1FF31BE069EC00C58C4A /* Login */,
+				ACCB1FF81BE069EC00C58C4A /* Message */,
+				ACCB1FFB1BE069EC00C58C4A /* Working */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		ACCB1FF11BE069EC00C58C4A /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FF21BE069EC00C58C4A /* Contacts.storyboard */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		ACCB1FF31BE069EC00C58C4A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FF41BE069EC00C58C4A /* CustomUI */,
+				ACCB1FF51BE069EC00C58C4A /* Manager */,
+				ACCB1FF61BE069EC00C58C4A /* Model */,
+				ACCB1FF71BE069EC00C58C4A /* ViewControllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		ACCB1FF41BE069EC00C58C4A /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		ACCB1FF51BE069EC00C58C4A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		ACCB1FF61BE069EC00C58C4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACCB1FF71BE069EC00C58C4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ACCB1FF81BE069EC00C58C4A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FF91BE069EC00C58C4A /* HCMMessageViewController.swift */,
+				ACCB1FFA1BE069EC00C58C4A /* Messages.storyboard */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		ACCB1FFB1BE069EC00C58C4A /* Working */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FFC1BE069EC00C58C4A /* CalendarMgmt */,
+				ACCB20031BE069EC00C58C4A /* Working.storyboard */,
+			);
+			path = Working;
+			sourceTree = "<group>";
+		};
+		ACCB1FFC1BE069EC00C58C4A /* CalendarMgmt */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB1FFD1BE069EC00C58C4A /* CustomUI */,
+				ACCB1FFE1BE069EC00C58C4A /* Manager */,
+				ACCB1FFF1BE069EC00C58C4A /* Model */,
+				ACCB20001BE069EC00C58C4A /* ViewControllers */,
+			);
+			path = CalendarMgmt;
+			sourceTree = "<group>";
+		};
+		ACCB1FFD1BE069EC00C58C4A /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		ACCB1FFE1BE069EC00C58C4A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		ACCB1FFF1BE069EC00C58C4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACCB20001BE069EC00C58C4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB20011BE069EC00C58C4A /* HCMCalendarMgmtViewController.swift */,
+				ACCB200C1BE06AD100C58C4A /* HCMCalendarViewController.swift */,
+				ACCB20101BE06F4B00C58C4A /* HCMAlertViewController.swift */,
+				ACCB20121BE0753100C58C4A /* HCMTransactionViewController.swift */,
+				ACCB20021BE069EC00C58C4A /* HCMCalendarEditViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CD29CD192D31B3B83E4E58A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4AD264C88D3E3E981409B /* Pods-HCM.debug.xcconfig */,
+				29805A471502A4C6B2A79A0C /* Pods-HCM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E85B9FDE708D37B93D12985A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BDE173847796F7B26997E9 /* Pods_HCM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0F72131BDDF696008A99DA /* HCM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0F72261BDDF696008A99DA /* Build configuration list for PBXNativeTarget "HCM" */;
+			buildPhases = (
+				CE1217700AF4C531C2F8CE7A /* Check Pods Manifest.lock */,
+				AC0F72101BDDF696008A99DA /* Sources */,
+				AC0F72111BDDF696008A99DA /* Frameworks */,
+				AC0F72121BDDF696008A99DA /* Resources */,
+				BD4A21A49FE81CC0CCA24D6A /* Embed Pods Frameworks */,
+				8EC4A4BBA0FA8D50AC4819BF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCM;
+			productName = HCM;
+			productReference = AC0F72141BDDF696008A99DA /* HCM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0F720C1BDDF696008A99DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = COFCO;
+				TargetAttributes = {
+					AC0F72131BDDF696008A99DA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5QR5MQ97FQ;
+					};
+				};
+			};
+			buildConfigurationList = AC0F720F1BDDF696008A99DA /* Build configuration list for PBXProject "HCM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0F720B1BDDF696008A99DA;
+			productRefGroup = AC0F72151BDDF696008A99DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0F72131BDDF696008A99DA /* HCM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0F72121BDDF696008A99DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCB20061BE069EC00C58C4A /* Contacts.storyboard in Resources */,
+				AC0F72221BDDF696008A99DA /* LaunchScreen.storyboard in Resources */,
+				ACCB20081BE069EC00C58C4A /* Messages.storyboard in Resources */,
+				AC0F721F1BDDF696008A99DA /* Assets.xcassets in Resources */,
+				ACCB200B1BE069EC00C58C4A /* Working.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EC4A4BBA0FA8D50AC4819BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCM/Pods-HCM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4A21A49FE81CC0CCA24D6A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCM/Pods-HCM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1217700AF4C531C2F8CE7A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0F72101BDDF696008A99DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCB200F1BE06BA500C58C4A /* HCMDateUtil.swift in Sources */,
+				ACCB20111BE06F4B00C58C4A /* HCMAlertViewController.swift in Sources */,
+				ACCB20051BE069EC00C58C4A /* HCMEventKitUtil.swift in Sources */,
+				ACCB200D1BE06AD100C58C4A /* HCMCalendarViewController.swift in Sources */,
+				ACCB200A1BE069EC00C58C4A /* HCMCalendarEditViewController.swift in Sources */,
+				ACCB20131BE0753100C58C4A /* HCMTransactionViewController.swift in Sources */,
+				ACCB20041BE069EC00C58C4A /* AppDelegate.swift in Sources */,
+				ACCB20161BE0A37200C58C4A /* HCMValidationUtil.swift in Sources */,
+				ACCB20091BE069EC00C58C4A /* HCMCalendarMgmtViewController.swift in Sources */,
+				ACCB20071BE069EC00C58C4A /* HCMMessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC0F72201BDDF696008A99DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0F72211BDDF696008A99DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0F72241BDDF696008A99DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0F72251BDDF696008A99DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0F72271BDDF696008A99DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A4AD264C88D3E3E981409B /* Pods-HCM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.HCM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AC0F72281BDDF696008A99DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29805A471502A4C6B2A79A0C /* Pods-HCM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.HCM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0F720F1BDDF696008A99DA /* Build configuration list for PBXProject "HCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0F72241BDDF696008A99DA /* Debug */,
+				AC0F72251BDDF696008A99DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0F72261BDDF696008A99DA /* Build configuration list for PBXNativeTarget "HCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0F72271BDDF696008A99DA /* Debug */,
+				AC0F72281BDDF696008A99DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0F720C1BDDF696008A99DA /* Project object */;
+}

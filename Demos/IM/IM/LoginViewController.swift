@@ -32,9 +32,7 @@ class LoginViewController: UIViewController {
     }
     
     func loginSuccess() {
-        if let vc = storyboard?.instantiateViewControllerWithIdentifier("FriendsListNav") {
-            presentViewController(vc, animated: true, completion: nil)
-        }
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
 }

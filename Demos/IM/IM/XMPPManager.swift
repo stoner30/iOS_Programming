@@ -14,7 +14,7 @@ private let XMPP_PORT: UInt16 = 5222
 
 private let XMPP_DOMAIN = "stoner-rmbp.local"
 
-class XMPPManager: NSObject, XMPPStreamDelegate {
+class XMPPManager: NSObject, XMPPStreamDelegate, XMPPStreamManagementDelegate, XMPPRosterDelegate {
     
     var xmppStream: XMPPStream!
     
@@ -30,7 +30,7 @@ class XMPPManager: NSObject, XMPPStreamDelegate {
     var xmppStreamManagement: XMPPStreamManagement!
     
     // 好友模块
-    var xmppRosterMemoryStorage: XMPPRosterMemoryStorage!
+    var xmppRosterCoreDataStorage: XMPPRosterCoreDataStorage!
     var xmppRoster: XMPPRoster!
     
     // 消息模块
@@ -71,7 +71,6 @@ class XMPPManager: NSObject, XMPPStreamDelegate {
             self.xmppStream.addDelegate(self, delegateQueue: dispatch_get_main_queue())
             // 心跳包时间
             self.xmppStream.keepAliveInterval = 30
-            
             // 允许xmpp在后台运行
             self.xmppStream.enableBackgroundingOnSocket = true
             
@@ -80,7 +79,7 @@ class XMPPManager: NSObject, XMPPStreamDelegate {
             xmppReconnect.autoReconnect = true
             xmppReconnect.activate(self.xmppStream)
             
-            // 接入流量管理模块，用于流恢复跟消息确认，在移动端很重要
+            // 接入流管理模块，用于流恢复跟消息确认，在移动端很重要
             storage = XMPPStreamManagementMemoryStorage()
             xmppStreamManagement = XMPPStreamManagement(storage: storage)
             xmppStreamManagement.autoResume = true
@@ -88,14 +87,14 @@ class XMPPManager: NSObject, XMPPStreamDelegate {
             xmppStreamManagement.activate(self.xmppStream)
             
             // 接入好友模块，可以获取好友列表
-            xmppRosterMemoryStorage = XMPPRosterMemoryStorage()
-            xmppRoster = XMPPRoster(rosterStorage: xmppRosterMemoryStorage)
+            xmppRosterCoreDataStorage = XMPPRosterCoreDataStorage()
+            xmppRoster = XMPPRoster(rosterStorage: xmppRosterCoreDataStorage)
             xmppRoster.addDelegate(self, delegateQueue: dispatch_get_main_queue())
             xmppRoster.activate(self.xmppStream)
             
             // 接入消息模块，将消息存储到本地
             xmppMessageArchivingCoreDataStorage = XMPPMessageArchivingCoreDataStorage.sharedInstance()
-            xmppMessageArchiving = XMPPMessageArchiving(messageArchivingStorage: xmppMessageArchivingCoreDataStorage, dispatchQueue: dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 9))
+            xmppMessageArchiving = XMPPMessageArchiving(messageArchivingStorage: xmppMessageArchivingCoreDataStorage, dispatchQueue: dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0))
             xmppMessageArchiving.activate(self.xmppStream)
         }
     }
@@ -110,9 +109,7 @@ class XMPPManager: NSObject, XMPPStreamDelegate {
         do {
             try xmppStream.connectWithTimeout(XMPPStreamTimeoutNone)
         } catch {
-            print(error)
-            
-            let alertView = UIAlertView(title: "Error connecting", message: "connect fail", delegate: nil, cancelButtonTitle: "Ok")
+            let alertView = UIAlertView(title: "连接错误", message: "\(error)", delegate: nil, cancelButtonTitle: "Ok")
             alertView.show()
         }
     }
@@ -124,13 +121,19 @@ class XMPPManager: NSObject, XMPPStreamDelegate {
     
     func goOnline() {
         // 发送在线通知给服务器，服务器才会将离线消息推送过来
-        let presence = XMPPPresence(type: "available")
+        let presence = XMPPPresence()
         xmppStream.sendElement(presence)
     }
     
     func goOffline() {
         let presence = XMPPPresence(type: "unavailable")
         xmppStream.sendElement(presence)
+    }
+    
+    func sendMessage(message: String, to jid: XMPPJID) {
+        let newMessage = XMPPMessage(type: "chat", to: jid)
+        newMessage.addBody(message)
+        xmppStream.sendElement(newMessage)
     }
     
     // MARK: - connect delegate
@@ -169,7 +172,12 @@ class XMPPManager: NSObject, XMPPStreamDelegate {
     }
     
     func xmppStream(sender: XMPPStream!, didReceivePresence presence: XMPPPresence!) {
+        print("presence: from-\(presence.from().bare()), to-\(presence.to().bare())")
         NSNotificationCenter.defaultCenter().postNotificationName("RosterChanged", object: nil)
+    }
+    
+    func xmppStream(sender: XMPPStream!, didReceiveMessage message: XMPPMessage!) {
+        NSNotificationCenter.defaultCenter().postNotificationName("DidReceiveNewMessage", object: nil)
     }
     
     // MARK: - terminate
@@ -177,10 +185,12 @@ class XMPPManager: NSObject, XMPPStreamDelegate {
     func applicationWillTerminate() {
         let app = UIApplication.sharedApplication()
         var taskId: UIBackgroundTaskIdentifier!
-        app.beginBackgroundTaskWithExpirationHandler({
+        
+        taskId = app.beginBackgroundTaskWithExpirationHandler({
             () -> Void in
             app.endBackgroundTask(taskId!)
         })
+        
         if taskId == UIBackgroundTaskInvalid {
             return
         }

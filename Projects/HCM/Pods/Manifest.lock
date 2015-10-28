@@ -1,0 +1,16 @@
+PODS:
+  - Eureka (1.1.0)
+  - FSCalendar (1.6.0)
+  - SwiftValidators (2.0.1)
+
+DEPENDENCIES:
+  - Eureka
+  - FSCalendar
+  - SwiftValidators
+
+SPEC CHECKSUMS:
+  Eureka: 9b198a9f4098a1e75df31dde502105bc0b7e305b
+  FSCalendar: 28498cdac69948ed070e35ae800e76096d10c47b
+  SwiftValidators: 50cb47b33f9c7ce08043b438b71046e36b7651eb
+
+COCOAPODS: 0.39.0

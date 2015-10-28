@@ -1,0 +1,6 @@
+framework module Pods_HCM {
+  umbrella header "Pods-HCM-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		74056B483F8F9AAD866423AD /* Pods_IM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DE9D471BCE2BCDFE9B86A1 /* Pods_IM.framework */; };
-		AC12E9EC1BD9C1F10049F944 /* XMPPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12E9EB1BD9C1F10049F944 /* XMPPManager.swift */; settings = {ASSET_TAGS = (); }; };
-		AC12E9F01BD9E8CE0049F944 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12E9EF1BD9E8CE0049F944 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		AC12E9F31BDA039F0049F944 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12E9F21BDA039F0049F944 /* FriendsListViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		AC12E9F51BDA07180049F944 /* IM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC12E9F41BDA07180049F944 /* IM.storyboard */; settings = {ASSET_TAGS = (); }; };
+		AC12E9EC1BD9C1F10049F944 /* XMPPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12E9EB1BD9C1F10049F944 /* XMPPManager.swift */; };
+		AC12E9F01BD9E8CE0049F944 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12E9EF1BD9E8CE0049F944 /* LoginViewController.swift */; };
+		AC12E9F31BDA039F0049F944 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12E9F21BDA039F0049F944 /* FriendsListViewController.swift */; };
+		AC12E9F51BDA07180049F944 /* IM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC12E9F41BDA07180049F944 /* IM.storyboard */; };
+		AC12E9F71BDA1E470049F944 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12E9F61BDA1E470049F944 /* ChatViewController.swift */; };
+		AC529D071BDCB0D80078759B /* XMPPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC529D061BDCB0D80078759B /* XMPPTool.swift */; };
 		ACBE789B1BD8821300B8BF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE789A1BD8821300B8BF11 /* AppDelegate.swift */; };
 		ACBE789D1BD8821300B8BF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE789C1BD8821300B8BF11 /* ViewController.swift */; };
 		ACBE78A01BD8821300B8BF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBE789E1BD8821300B8BF11 /* Main.storyboard */; };
 		ACBE78A21BD8821300B8BF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE78A11BD8821300B8BF11 /* Assets.xcassets */; };
 		ACBE78A51BD8821300B8BF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBE78A31BD8821300B8BF11 /* LaunchScreen.storyboard */; };
-		ACBE78AD1BD8864900B8BF11 /* CustomToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBE78AC1BD8864900B8BF11 /* CustomToolbar.xib */; settings = {ASSET_TAGS = (); }; };
-		ACBE78B21BD88C3F00B8BF11 /* CustomToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE78B01BD88C3F00B8BF11 /* CustomToolbarController.swift */; settings = {ASSET_TAGS = (); }; };
-		ACBE78B31BD88C3F00B8BF11 /* CustomToolbarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBE78B11BD88C3F00B8BF11 /* CustomToolbarController.xib */; settings = {ASSET_TAGS = (); }; };
+		ACBE78AD1BD8864900B8BF11 /* CustomToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBE78AC1BD8864900B8BF11 /* CustomToolbar.xib */; };
+		ACBE78B21BD88C3F00B8BF11 /* CustomToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE78B01BD88C3F00B8BF11 /* CustomToolbarController.swift */; };
+		ACBE78B31BD88C3F00B8BF11 /* CustomToolbarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBE78B11BD88C3F00B8BF11 /* CustomToolbarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AC12E9EF1BD9E8CE0049F944 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC12E9F21BDA039F0049F944 /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
 		AC12E9F41BDA07180049F944 /* IM.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IM.storyboard; sourceTree = "<group>"; };
+		AC12E9F61BDA1E470049F944 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AC529D061BDCB0D80078759B /* XMPPTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMPPTool.swift; sourceTree = "<group>"; };
 		ACBE78971BD8821300B8BF11 /* IM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE789A1BD8821300B8BF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBE789C1BD8821300B8BF11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,8 +82,17 @@
 				AC12E9EB1BD9C1F10049F944 /* XMPPManager.swift */,
 				AC12E9EF1BD9E8CE0049F944 /* LoginViewController.swift */,
 				AC12E9F21BDA039F0049F944 /* FriendsListViewController.swift */,
+				AC12E9F61BDA1E470049F944 /* ChatViewController.swift */,
 			);
 			name = Client;
+			sourceTree = "<group>";
+		};
+		AC529D051BDCB0A30078759B /* XMPP */ = {
+			isa = PBXGroup;
+			children = (
+				AC529D061BDCB0D80078759B /* XMPPTool.swift */,
+			);
+			name = XMPP;
 			sourceTree = "<group>";
 		};
 		ACBE788E1BD8821300B8BF11 = {
@@ -103,6 +116,7 @@
 		ACBE78991BD8821300B8BF11 /* IM */ = {
 			isa = PBXGroup;
 			children = (
+				AC529D051BDCB0A30078759B /* XMPP */,
 				ACBE789A1BD8821300B8BF11 /* AppDelegate.swift */,
 				ACBE789C1BD8821300B8BF11 /* ViewController.swift */,
 				ACBE78AC1BD8864900B8BF11 /* CustomToolbar.xib */,
@@ -244,6 +258,8 @@
 				AC12E9EC1BD9C1F10049F944 /* XMPPManager.swift in Sources */,
 				ACBE78B21BD88C3F00B8BF11 /* CustomToolbarController.swift in Sources */,
 				ACBE789D1BD8821300B8BF11 /* ViewController.swift in Sources */,
+				AC12E9F71BDA1E470049F944 /* ChatViewController.swift in Sources */,
+				AC529D071BDCB0D80078759B /* XMPPTool.swift in Sources */,
 				AC12E9F01BD9E8CE0049F944 /* LoginViewController.swift in Sources */,
 				AC12E9F31BDA039F0049F944 /* FriendsListViewController.swift in Sources */,
 				ACBE789B1BD8821300B8BF11 /* AppDelegate.swift in Sources */,

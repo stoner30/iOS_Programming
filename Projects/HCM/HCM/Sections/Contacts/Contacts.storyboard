@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="zQi-Cq-ZXu">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--中粮HCM-->
+        <scene sceneID="kyj-xR-zp7">
+            <objects>
+                <viewController id="SR7-ga-UTJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Xr-0u-lx8"/>
+                        <viewControllerLayoutGuide type="bottom" id="kqs-RO-lGo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tc1-Ml-h0A">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="联系人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WyR-NX-zAP">
+                                <rect key="frame" x="134.5" y="124" width="51" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WyR-NX-zAP" firstAttribute="top" secondItem="1Xr-0u-lx8" secondAttribute="bottom" constant="60" id="6jW-ED-Hxm"/>
+                            <constraint firstItem="WyR-NX-zAP" firstAttribute="centerX" secondItem="Tc1-Ml-h0A" secondAttribute="centerX" id="TJQ-Pk-lZV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="中粮HCM" id="uYQ-r3-69h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Lr-8K-4an" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="682" y="275"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2dr-5g-08W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zQi-Cq-ZXu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jhW-ii-sCh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SR7-ga-UTJ" kind="relationship" relationship="rootViewController" id="uty-OO-abz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6EQ-SU-4M3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150" y="275"/>
+        </scene>
+    </scenes>
+</document>
